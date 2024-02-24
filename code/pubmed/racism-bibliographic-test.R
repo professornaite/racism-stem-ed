@@ -10,5 +10,5 @@ install.packages("pubmedR")
 library(pubmedR)
 
 # api key
-pubmedapi <- rstudioapi::askForSecret("pubmedapi")
-api_key <- "pubmedabi"
+api_key <- rstudioapi::askForSecret("pubmedapi")
+api_key
