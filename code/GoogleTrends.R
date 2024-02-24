@@ -53,10 +53,10 @@ plot(race.2013.01.01)
 dev.off()
 
 # racism (10-year trend)
-racism.2013.01.01<-gtrends(c("racism"), time= "2013-01-01 2023-12-31", geo = "US")
-plot(racism.2013.01.01)
+racism10year<-gtrends(c("racism"), time= "2013-01-01 2023-12-31", geo = "US")
+plot(racism10year)
 jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-trends/racism-10year.jpeg") # save plot
-plot(racism.2013.01.01)
+plot(racism10year)
 dev.off()
 
 # covid and racism
