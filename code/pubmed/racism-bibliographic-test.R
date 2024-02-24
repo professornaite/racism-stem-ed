@@ -13,7 +13,7 @@ library(pubmedR)
 api_key <- rstudioapi::askForSecret("pubmedapi")
 api_key
 
-# query articles
+# query articles  
   # written in English: English[LA]
   # journal articles: Journal Article[PT]
   # published in the last 10 years
