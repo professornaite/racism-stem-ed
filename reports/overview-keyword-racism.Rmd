@@ -1,0 +1,36 @@
+---
+title: "Overview: Keyword `racism`"
+author: "Nathan Alexander"
+date: "2024-02-25"
+output:
+  html_document:
+    toc: true
+  pdf_document:
+    keep_tex: true
+---
+
+## Google trend analysis of racism
+
+We generate a basic analysis of Google trends data on the term `racism`.
+
+```{r load-packages, include=FALSE}
+library(dplyr)
+library(magrittr)
+library(knitr)
+
+install.packages("gtrendsR", repos = "http://cran.us.r-project.org")
+# load libraries
+library(dplyr)
+library(magrittr)
+library(gtrendsR)
+library(knitr)
+library(ggplot2)
+library(patchwork)
+```
+
+```{r, echo=FALSE}
+# gather country codes and names
+data(countries)
+countries %>% 
+  filter(country_code == "US")
+```
