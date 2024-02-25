@@ -2,11 +2,10 @@
 # developer portal: https://developer.clarivate.com/ 
 # code samples: https://github.com/clarivate?q=wosstarter&type=&language=&sort=
 # wos R interface (old): https://github.com/juba/rwos
-# search: https://www.google.com/search?client=firefox-b-1-d&q=web+of+science+in+R
-# https://www.youtube.com/watch?v=xKu6TknKIz0
+# extraction: https://www.youtube.com/watch?v=xKu6TknKIz0
 
-install.packages("devtools")  # if required
-devtools::install_github("juba/rwos")
 
-library(rwos)
-sid <- wos_authenticate()
+## access WoS database through library site
+# query 1: racism (Abstract) and Education Educational Research (Web of Science)
+# query 1 link: https://www.webofscience.com/wos/woscc/summary/122d6dad-98a6-421d-949d-802bbaeef17a-ce9b34f2/relevance/1
+
