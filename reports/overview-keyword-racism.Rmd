@@ -5,13 +5,15 @@ date: "2024-02-25"
 output:
   html_document:
     toc: true
+    self_contained: yes
+    mode: selfcontained
   pdf_document:
     keep_tex: true
 ---
 
-## Google trend analysis of racism
+# Google trend analysis of racism
 
-We generate a basic analysis of Google trends data on the term `racism`.
+We generate a basic analysis of Google Trends data on the term `racism`.
 
 ```{r load-packages, include=FALSE}
 library(dplyr)
@@ -28,9 +30,90 @@ library(ggplot2)
 library(patchwork)
 ```
 
-```{r, echo=FALSE}
+```{r, include=FALSE}
 # gather country codes and names
 data(countries)
 countries %>% 
   filter(country_code == "US")
 ```
+
+## 10-year Google Trend 
+Searches for the term `racism` in the United States
+
+```{r}
+# racism (10-year trend)
+racism10year<-gtrends(c("racism"), time= "2013-01-01 2023-12-31", geo = "US")
+plot(racism10year)
+```
+
+Hypothesis was a spike in US between 2019 and 2022.
+
+## 2-year Google Trend for 2020 and 2021
+Searches for the term `racism` in the United States
+
+```{r}
+# racism (1-year trend for 2021)
+racism1year<-gtrends(c("racism"), time= "2019-12-31 2021-12-31", geo = "US")
+plot(racism1year)
+```
+
+## Search for `racism` and `covid`
+Adding 10-year historical context (Covid) to searches for racism
+
+```{r}
+racism_covid<-gtrends(c("covid", "racism"), time= "2013-01-01 2023-12-31", geo = "US")
+plot(racism_covid)
+```
+
+## Search for `racism` and `stem`
+Adding 10-year ancillary context (subject=stem) to searches for racism
+
+```{r}
+racism_stem<-gtrends(c("stem", "racism"), time= "2013-01-01 2023-12-31", geo = "US")
+plot(racism_stem)
+```
+
+## Search for `racism` and `education`
+Adding 10-year ancillary context (subject=education) to searches for racism
+
+```{r}
+racism_education<-gtrends(c("education", "racism"), time= "2013-01-01 2023-12-31", geo = "US")
+plot(racism_education)
+```
+
+## Search for `racism` and `george floyd`
+Adding historical context (person=george floyd) to searches for racism
+
+```{r}
+racism_george_floyd<-gtrends(c("george floyd", "racism"), time= "2019-12-31 2021-12-31", geo = "US")
+plot(racism_george_floyd)
+```
+
+```{r}
+racism_george_floyd<-gtrends(c("george floyd", "racism"), time= "2019-12-31 2021-12-31", geo = "US")
+
+racism_george_floyd_2 <- racism_george_floyd$interest_over_time %>% 
+  dplyr::mutate(hits=ifelse(hits=="<1",0.5, as.numeric(hits)),
+         date=as.Date(date))
+
+ggplot(racism_george_floyd_2, aes(x=date, y=hits, color=keyword)) +
+  geom_line() +
+  geom_vline(xintercept=as.numeric(as.Date("2020-05-25")))
+```
+
+## Add date of George Floyd murder by police
+Layering date of George Floyd's murder (may 25, 2020) to plot.
+
+```{r}
+racism1year<-gtrends(c("racism", "george floyd", "covid"), time= "2019-12-31 2021-12-31", geo = "US")
+
+racism1year_trend <- racism1year$interest_over_time %>% 
+  dplyr::mutate(hits=ifelse(hits=="<1",0.5, as.numeric(hits)),
+         date=as.Date(date))
+
+ggplot(racism1year_trend, aes(x=date, y=hits, color=keyword)) +
+  geom_line() +
+  geom_vline(xintercept=as.numeric(as.Date("2020-05-25")))
+```
+
+The above information will inform our keyword inquiries for a bibliometric analysis.
