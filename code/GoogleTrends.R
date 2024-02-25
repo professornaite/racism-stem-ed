@@ -73,3 +73,27 @@ jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-
 plot(covid.police)
 dev.off()
 
+
+# functions for efficiency
+plot_trend<-function(keyword_string){
+  data<-gtrends(c(keyword_string), time= "2013-01-01 2023-12-31", geo = "US")
+  time_trend<-data$interest_over_time %>%
+    mutate(hits=ifelse(hits=="<1",0.5,hits),
+           date=as.Date(date),
+           keyword=factor(keyword, levels = keyword_string))
+  plot<-ggplot(data=time_trend, aes(x=date, y=as.numeric(hits), color=keyword)) +
+    geom_smooth(method="loess",span=0.4, se=FALSE) +
+    geom_vline(xintercept = as.numeric(as.Date("2023-12-31"))) +
+    theme_bw() +
+    scale_y_continuous(breaks = NULL) +
+    theme(legend.position = "bottom",
+          legend.title = element_blank(),
+          legend.text=element_text(size=10),
+          axis.title.x=element_blank(),
+          axis.title.y=element_blank())
+  return(plot)
+}
+
+plot1<-plot_trend(keyword_string = c("racism","stem"))
+plot1
+
