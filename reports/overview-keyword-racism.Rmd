@@ -3,12 +3,12 @@ title: "Overview: Keyword `racism`"
 author: "Nathan Alexander"
 date: "2024-02-25"
 output:
+  pdf_document:
+    keep_tex: true
   html_document:
     toc: true
     self_contained: yes
     mode: selfcontained
-  pdf_document:
-    keep_tex: true
 ---
 
 # Google trend analysis of racism
