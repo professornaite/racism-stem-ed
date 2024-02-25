@@ -1,5 +1,4 @@
 # ERIC database API
-# tutorial: https://www.youtube.com/watch?v=xGpSgS3Sd2s
 
 require(tidyverse)
 require(dplyr)
