@@ -4,8 +4,6 @@ Various explorations of race and racism in STEM education.
 
 ![](https://github.com/professornaite/racism-stem-ed/blob/main/output/plots-google-trends/racism-10year.jpeg?raw=false)
 
-![](https://github.com/professornaite/racism-stem-ed/blob/main/output/plots-wos/citation_report_racism_education_journals_all.png?raw=false)
-
 Files in this project make use of the following packages, programs, and resources:
 
   - [pubmedR](https://cran.r-project.org/web/packages/pubmedR/index.html)
