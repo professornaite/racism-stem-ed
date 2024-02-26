@@ -17,7 +17,7 @@ api_key
   # written in English: English[LA]
   # journal articles: Journal Article[PT]
   # published in the last 10 years
-racism_query <- "racism*[Title/Abstract] AND english[LA] AND Journal Article[PT] AND 2013:2023[DP]"
+racism_query <- "racism*[Title/Abstract] AND english[LA] AND Journal Article[PT] AND 2022:2023[DP]"
 
 # return total documents retrieved
 racism_query_result <- pmQueryTotalCount(query = racism_query, api_key = api_key)
