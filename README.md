@@ -9,5 +9,7 @@ Files in this project make use of the following packages, programs, and resource
   - [pubmedR](https://cran.r-project.org/web/packages/pubmedR/index.html)
   
   - [Google Trends](https://trends.google.com/)
+  
+  - [rscopus](https://cloud.r-project.org/web/packages/rscopus/index.html)
 
 Project team: Nathan Alexander, Qyana Stewart, Basil Ghali
