@@ -29,5 +29,16 @@ toks_description <- tokens(df$description)
 toks_description
 
   # concordonance view
-  kw_description <- kwic(toks_description, pattern = "rac*")
-  head(kw_description)
+  kw_description <- kwic(toks_description, pattern = "rac*") # pattern = rac*
+  tail(kw_description)
+  
+  View(kw_description)
+  
+  # pattern = black
+  kw_description_black <- kwic(toks_description, pattern = "black") %>% 
+    filter(df$publicationdateyear < 2000)
+  head(kw_description_black)
+  
+  
+  # focus decades; analysis of additoinal terms that relate to pattern rac*
+  
