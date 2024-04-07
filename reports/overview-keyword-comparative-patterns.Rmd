@@ -1,0 +1,32 @@
+---
+title: "Overview: Comparative results - keyword patterns"
+author: "Nathan Alexander"
+date: "2024-04-02"
+output:
+  pdf_document:
+    keep_tex: true
+  html_document:
+    toc: true
+    self_contained: yes
+    mode: selfcontained
+---
+
+# Keyword comparative patterns
+
+We input and discuss the results of keyword patterns.
+
+```{r load-packages, include=FALSE}
+require(tidyverse)
+require(ggplot2)
+require(quanteda)
+library(dplyr)
+
+
+```
+
+
+
+```{r, include=TRUE}
+2 + 2
+```
+
