@@ -1,0 +1,122 @@
+Web of Science Categories	Record Count	% of 474
+Education Educational Research	110	23.207
+Education Scientific Disciplines	50	10.549
+Public Environmental Occupational Health	50	10.549
+Ethnic Studies	44	9.283
+Sociology	32	6.751
+Women S Studies	23	4.852
+Psychology Social	20	4.219
+Psychology Educational	14	2.954
+Social Sciences Interdisciplinary	14	2.954
+Political Science	13	2.743
+Psychology Multidisciplinary	13	2.743
+Multidisciplinary Sciences	11	2.321
+Urban Studies	11	2.321
+Chemistry Multidisciplinary	10	2.110
+Engineering Multidisciplinary	10	2.110
+Geography	10	2.110
+History	10	2.110
+Psychology Developmental	10	2.110
+
+
+
+
+
+Environmental Sciences	9	1.899
+Health Care Sciences Services	9	1.899
+Psychiatry	9	1.899
+Social Issues	9	1.899
+Social Work	9	1.899
+Law	8	1.688
+Regional Urban Planning	8	1.688
+Communication	7	1.477
+Computer Science Interdisciplinary Applications	7	1.477
+Environmental Studies	7	1.477
+Social Sciences Biomedical	7	1.477
+Criminology Penology	6	1.266
+Family Studies	6	1.266
+Health Policy Services	6	1.266
+Linguistics	6	1.266
+Obstetrics Gynecology	6	1.266
+Area Studies	5	1.055
+Cultural Studies	5	1.055
+Psychology Clinical	5	1.055
+Anthropology	4	0.844
+Biochemistry Molecular Biology	4	0.844
+Green Sustainable Science Technology	4	0.844
+Humanities Multidisciplinary	4	0.844
+International Relations	4	0.844
+Language Linguistics	4	0.844
+Management	4	0.844
+Neurosciences	4	0.844
+Nursing	4	0.844
+Oncology	4	0.844
+Pediatrics	4	0.844
+Philosophy	4	0.844
+Psychology Experimental	4	0.844
+Biochemical Research Methods	3	0.633
+Biology	3	0.633
+Business	3	0.633
+Cell Biology	3	0.633
+Demography	3	0.633
+Engineering Electrical Electronic	3	0.633
+Hematology	3	0.633
+History Of Social Sciences	3	0.633
+Hospitality Leisure Sport Tourism	3	0.633
+Medicine General Internal	3	0.633
+Computer Science Software Engineering	2	0.422
+Computer Science Theory Methods	2	0.422
+Development Studies	2	0.422
+Ecology	2	0.422
+Ethics	2	0.422
+Geosciences Multidisciplinary	2	0.422
+History Philosophy Of Science	2	0.422
+Infectious Diseases	2	0.422
+Literature	2	0.422
+Mathematical Computational Biology	2	0.422
+Microbiology	2	0.422
+Psychology	2	0.422
+Psychology Applied	2	0.422
+Psychology Biological	2	0.422
+Public Administration	2	0.422
+Rehabilitation	2	0.422
+Religion	2	0.422
+Agricultural Economics Policy	1	0.211
+Agriculture Multidisciplinary	1	0.211
+Archaeology	1	0.211
+Architecture	1	0.211
+Behavioral Sciences	1	0.211
+Cardiac Cardiovascular Systems	1	0.211
+Cell Tissue Engineering	1	0.211
+Computer Science Artificial Intelligence	1	0.211
+Computer Science Information Systems	1	0.211
+Critical Care Medicine	1	0.211
+Dermatology	1	0.211
+Economics	1	0.211
+Education Special	1	0.211
+Energy Fuels	1	0.211
+Evolutionary Biology	1	0.211
+Film Radio Television	1	0.211
+Gastroenterology Hepatology	1	0.211
+Immunology	1	0.211
+Industrial Relations Labor	1	0.211
+Information Science Library Science	1	0.211
+Literary Theory Criticism	1	0.211
+Literature German Dutch Scandinavian	1	0.211
+Literature Romance	1	0.211
+Marine Freshwater Biology	1	0.211
+Mathematics Interdisciplinary Applications	1	0.211
+Medical Ethics	1	0.211
+Meteorology Atmospheric Sciences	1	0.211
+Music	1	0.211
+Pharmacology Pharmacy	1	0.211
+Physics Applied	1	0.211
+Physics Multidisciplinary	1	0.211
+Psychology Psychoanalysis	1	0.211
+Radiology Nuclear Medicine Medical Imaging	1	0.211
+Reproductive Biology	1	0.211
+Social Sciences Mathematical Methods	1	0.211
+Soil Science	1	0.211
+Sport Sciences	1	0.211
+Surgery	1	0.211
+Urology Nephrology	1	0.211

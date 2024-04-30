@@ -1,0 +1,79 @@
+Research Areas	Record Count	% of 474
+Education Educational Research	147	31.013
+Psychology	55	11.603
+Public Environmental Occupational Health	50	10.549
+Ethnic Studies	44	9.283
+Sociology	32	6.751
+Women S Studies	23	4.852
+Social Sciences Other Topics	22	4.641
+Government Law	21	4.430
+Environmental Sciences Ecology	16	3.376
+Science Technology Other Topics	15	3.165
+Engineering	13	2.743
+Health Care Sciences Services	11	2.321
+Urban Studies	11	2.321
+Chemistry	10	2.110
+Geography	10	2.110
+History	10	2.110
+Business Economics	9	1.899
+Computer Science	9	1.899
+Psychiatry	9	1.899
+Public Administration	9	1.899
+Social Issues	9	1.899
+Social Work	9	1.899
+Biochemistry Molecular Biology	7	1.477
+Biomedical Social Sciences	7	1.477
+Communication	7	1.477
+Linguistics	7	1.477
+Criminology Penology	6	1.266
+Family Studies	6	1.266
+Obstetrics Gynecology	6	1.266
+Area Studies	5	1.055
+Cultural Studies	5	1.055
+Literature	5	1.055
+Anthropology	4	0.844
+Arts Humanities Other Topics	4	0.844
+General Internal Medicine	4	0.844
+International Relations	4	0.844
+Neurosciences Neurology	4	0.844
+Nursing	4	0.844
+Oncology	4	0.844
+Pediatrics	4	0.844
+Philosophy	4	0.844
+Agriculture	3	0.633
+Cell Biology	3	0.633
+Demography	3	0.633
+Hematology	3	0.633
+Life Sciences Biomedicine Other Topics	3	0.633
+Development Studies	2	0.422
+Geology	2	0.422
+History Philosophy Of Science	2	0.422
+Infectious Diseases	2	0.422
+Mathematical Computational Biology	2	0.422
+Microbiology	2	0.422
+Physics	2	0.422
+Rehabilitation	2	0.422
+Religion	2	0.422
+Archaeology	1	0.211
+Architecture	1	0.211
+Behavioral Sciences	1	0.211
+Cardiovascular System Cardiology	1	0.211
+Dermatology	1	0.211
+Energy Fuels	1	0.211
+Evolutionary Biology	1	0.211
+Film Radio Television	1	0.211
+Gastroenterology Hepatology	1	0.211
+Immunology	1	0.211
+Information Science Library Science	1	0.211
+Marine Freshwater Biology	1	0.211
+Mathematical Methods In Social Sciences	1	0.211
+Mathematics	1	0.211
+Medical Ethics	1	0.211
+Meteorology Atmospheric Sciences	1	0.211
+Music	1	0.211
+Pharmacology Pharmacy	1	0.211
+Radiology Nuclear Medicine Medical Imaging	1	0.211
+Reproductive Biology	1	0.211
+Sport Sciences	1	0.211
+Surgery	1	0.211
+Urology Nephrology	1	0.211

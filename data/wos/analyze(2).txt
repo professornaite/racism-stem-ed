@@ -1,0 +1,155 @@
+Citation Topics Micro	Record Count	% of 474
+1.103.1126 Chronic Myeloid Leukemia	1	0.211
+1.103.155 Acute Myeloid Leukemia	2	0.422
+1.104.1353 Coronavirus	4	0.844
+1.106.478 Systemic Lupus Erythematosus	1	0.211
+1.112.237 Palliative Care	1	0.211
+1.119.454 Breast Cancer Incidence	2	0.422
+1.128.482 Contraception	2	0.422
+1.136.1070 School Psychology	1	0.211
+1.136.283 Autism	1	0.211
+1.136.536 Disabilities	2	0.422
+1.137.217 Melatonin	1	0.211
+1.14.265 Nursing	2	0.422
+1.14.363 Nursing Education	2	0.422
+1.14.364 Health Insurance	2	0.422
+1.14.763 Evidence-based Practice	1	0.211
+1.14.841 Academic Medicine	33	6.962
+1.14.849 Surgical Education	1	0.211
+1.142.165 Urinary Incontinence	1	0.211
+1.155.598 Informed Consent	1	0.211
+1.156.1502 Indigenous Education	3	0.633
+1.156.2068 Unemployment	1	0.211
+1.156.2181 Public Health Workforce	1	0.211
+1.156.436 Self-rated Health	38	8.017
+1.157.708 Organ Donation	1	0.211
+1.189.310 Population Genetics	2	0.422
+1.21.1363 Mental Health	1	0.211
+1.21.2270 Perfectionism	4	0.844
+1.21.24 Schizophrenia	2	0.422
+1.21.624 Psychopathy	2	0.422
+1.252.74 Smoking Cessation	1	0.211
+1.273.1447 Telemedicine	2	0.422
+1.273.870 Health Literacy	1	0.211
+1.44.1069 Sibutramine	1	0.211
+1.66.11 Hiv Prevalence & Prophylaxis	2	0.422
+1.7.1311 Numerical Cognition	1	0.211
+1.7.2100 Deception Detection	1	0.211
+1.7.354 Emotion	1	0.211
+1.72.1710 Postpartum Hemorrhage	2	0.422
+1.72.182 Gestational Diabetes Mellitus	1	0.211
+1.72.808 Breech Presentation	1	0.211
+1.80.41 Osteoporosis	1	0.211
+1.81.979 Twin-twin Transfusion Syndrome	1	0.211
+10.126.1852 Husserl	1	0.211
+10.126.530 Rawls	1	0.211
+10.144.1118 Anthropometric History	1	0.211
+10.144.1387 Civil Rights	2	0.422
+10.144.1613 Mexican Revolution	2	0.422
+10.144.1621 Settler Colonialism	2	0.422
+10.144.2123 Environmental History	1	0.211
+10.144.2299 Devolution	1	0.211
+10.240.1566 Popular Music	1	0.211
+10.245.1463 Fascism	1	0.211
+10.245.1619 Cold War	1	0.211
+10.245.2014 Zionism	1	0.211
+10.268.1427 Natural Philosophy	1	0.211
+10.268.2117 Eugenics	1	0.211
+10.279.1137 Soviet Union	1	0.211
+10.279.2407 Balkanism	1	0.211
+10.99.1623 World Literature	1	0.211
+10.99.1714 Jane Eyre	2	0.422
+10.99.1793 Toni Morrison	3	0.633
+10.99.2330 Hikikomori	1	0.211
+10.99.2415 Irish Literature	1	0.211
+10.99.2424 Contemporary German Literature	1	0.211
+3.35.274 Species Conservation	1	0.211
+3.60.548 Acetylcholinesterase	1	0.211
+4.116.1415 Human-robot Interaction	1	0.211
+4.183.495 Travel Behavior	1	0.211
+4.224.715 Design Education	2	0.422
+4.48.2210 Entity Resolution	1	0.211
+4.48.228 Information Literacy	1	0.211
+5.191.2372 Space Policy	1	0.211
+5.318.2337 Periodic Table	1	0.211
+6.11.1248 Creativity	1	0.211
+6.11.1255 International Students	2	0.422
+6.11.1506 Engineering Education	3	0.633
+6.11.1526 Computational Thinking	7	1.477
+6.11.1544 Academic Development	2	0.422
+6.11.190 Teacher Education	11	2.321
+6.11.2145 Geography Education	1	0.211
+6.11.295 Science Education	22	4.641
+6.11.345 School Leadership	3	0.633
+6.11.666 Intergenerational Mobility	9	1.899
+6.11.882 Critical Pedagogy	1	0.211
+6.110.45 Supreme Court	2	0.422
+6.110.580 Crime	2	0.422
+6.110.588 Sentencing	1	0.211
+6.146.1622 Autoethnography	2	0.422
+6.146.2193 Modernity / Coloniality	1	0.211
+6.146.734 Anthropology	3	0.633
+6.146.794 Islam	1	0.211
+6.146.842 African National Congress	2	0.422
+6.146.955 Caste	2	0.422
+6.153.2168 Environmental Justice	1	0.211
+6.153.2432 Climate Security	1	0.211
+6.153.558 Climate Change Adaptation	2	0.422
+6.178.443 Work-family Conflict	7	1.477
+6.178.483 Lgbtq+	10	2.110
+6.178.516 Divorce	2	0.422
+6.185.1390 Video Games	1	0.211
+6.185.1707 Rhetoric	1	0.211
+6.185.184 Journalism	1	0.211
+6.185.2501 Wikipedia	1	0.211
+6.223.247 Tourism	2	0.422
+6.223.961 Sport	3	0.633
+6.238.166 Bibliometrics	1	0.211
+6.24.1084 Sexual Assault	1	0.211
+6.24.1266 Social Work Practice	1	0.211
+6.24.15 Parenting	1	0.211
+6.24.379 Psychoanalysis	1	0.211
+6.24.498 Psychotherapy	3	0.633
+6.24.856 Foster Care	3	0.633
+6.24.858 Intimate Partner Violence	1	0.211
+6.24.93 Ptsd	2	0.422
+6.256.525 Spirituality	1	0.211
+6.263.1407 Urban Agriculture	1	0.211
+6.269.1694 Deleuze	1	0.211
+6.269.1833 Anthropocene	1	0.211
+6.269.1929 Environmental Ethics	1	0.211
+6.269.2243 Foucault	1	0.211
+6.27.1435 Terrorism	1	0.211
+6.27.157 Elections	2	0.422
+6.27.1894 Peronism	1	0.211
+6.27.793 International Criminal Law	1	0.211
+6.277.1672 Japan And Korea	1	0.211
+6.3.343 Social Movements	1	0.211
+6.3.385 Corporate Social Responsibility	1	0.211
+6.3.48 Job Satisfaction	1	0.211
+6.3.65 Customer Satisfaction	1	0.211
+6.303.1915 Public Sociology	1	0.211
+6.303.2490 Sociology Of Time	1	0.211
+6.314.1762 Homelessness	1	0.211
+6.316.1968 Humor	1	0.211
+6.69.1116 Academic Writing	2	0.422
+6.69.218 Phonological Awareness	2	0.422
+6.69.342 Language Policy	1	0.211
+6.69.610 Conversation Analysis	2	0.422
+6.69.615 Speech Perception	1	0.211
+6.73.1166 Personality	1	0.211
+6.73.1567 History Of Psychology	1	0.211
+6.73.1708 Career Development	2	0.422
+6.73.447 Prejudice	101	21.308
+6.73.785 Subjective Well-being	1	0.211
+6.86.149 Gentrification	5	1.055
+6.86.1597 Photovoice	2	0.422
+6.86.1837 Racial Democracy	2	0.422
+6.86.2341 Roma	1	0.211
+6.86.280 Agglomeration Economies	1	0.211
+6.86.442 Immigration	6	1.266
+6.86.789 House Prices	5	1.055
+8.124.552 Air Pollution	1	0.211
+8.93.1153 Forensic Anthropology	1	0.211
+8.93.362 Archaeology	1	0.211
+21 record(s) (4.430%) do not contain data in the field being analyzed

@@ -1,0 +1,63 @@
+Citation Topics Meso	Record Count	% of 474
+1.103 Blood Disorders	3	0.633
+1.104 Virology - General	4	0.844
+1.106 Rheumatology	1	0.211
+1.112 Palliative Care	1	0.211
+1.119 Breast Cancer Scanning	2	0.422
+1.128 Fertility, Endometriosis & Hysterectomy	2	0.422
+1.136 Autism & Development Disorders	4	0.844
+1.137 Sleep Science & Circadian Systems	1	0.211
+1.14 Nursing	41	8.650
+1.142 Urology	1	0.211
+1.155 Medical Ethics	1	0.211
+1.156 Healthcare Policy	43	9.072
+1.157 Organ Donation & Transplantation	1	0.211
+1.189 Genome Studies	2	0.422
+1.21 Psychiatry	9	1.899
+1.252 Smoking Cessation	1	0.211
+1.273 Health Literacy & Telemedicine	3	0.633
+1.44 Nutrition & Dietetics	1	0.211
+1.66 Hiv	2	0.422
+1.7 Neuroscanning	3	0.633
+1.72 Obstetrics & Gynecology	4	0.844
+1.80 Bone Diseases	1	0.211
+1.81 Reproductive Biology	1	0.211
+10.126 Philosophy	2	0.422
+10.144 Modern History	9	1.899
+10.240 Music	1	0.211
+10.245 20th Century History	3	0.633
+10.268 History & Philosophy Of Science	2	0.422
+10.279 Soviet, Russian & East European History	2	0.422
+10.99 Literary Theory	9	1.899
+3.35 Zoology & Animal Ecology	1	0.211
+3.60 Herbicides, Pesticides & Ground Poisoning	1	0.211
+4.116 Robotics	1	0.211
+4.183 Transportation	1	0.211
+4.224 Design & Manufacturing	2	0.422
+4.48 Knowledge Engineering & Representation	2	0.422
+5.191 Space Sciences	1	0.211
+5.318 Physics Education	1	0.211
+6.11 Education & Educational Research	62	13.080
+6.110 Law	5	1.055
+6.146 Anthropology	11	2.321
+6.153 Climate Change	4	0.844
+6.178 Gender & Sexuality Studies	19	4.008
+6.185 Communication	4	0.844
+6.223 Hospitality, Leisure, Sport & Tourism	5	1.055
+6.238 Bibliometrics, Scientometrics & Research Integrity	1	0.211
+6.24 Psychiatry & Psychology	13	2.743
+6.256 Religion	1	0.211
+6.263 Agricultural Policy	1	0.211
+6.269 Political Philosophy	4	0.844
+6.27 Political Science	5	1.055
+6.277 Asian Studies	1	0.211
+6.3 Management	4	0.844
+6.303 Sociology	2	0.422
+6.314 Homelessness & Human Trafficking	1	0.211
+6.316 Folklore & Humor	1	0.211
+6.69 Language & Linguistics	8	1.688
+6.73 Social Psychology	106	22.363
+6.86 Human Geography	22	4.641
+8.124 Environmental Sciences	1	0.211
+8.93 Archaeology	2	0.422
+21 record(s) (4.430%) do not contain data in the field being analyzed
