@@ -24,7 +24,7 @@ racism_query_result <- pmQueryTotalCount(query = racism_query, api_key = api_key
 racism_query_result$total_count
 
 # download a subset of the collection of documents
-D <- pmApiRequest(query = racism_query, limit = racism_query_result$total_count/7, api_key = NULL)
+D <- pmApiRequest(query = racism_query, limit = racism_query_result$total_count/7, api_key = NULL) # note subset by /7
 
 D$query_translation
 

@@ -1,0 +1,174 @@
+---
+title: "Notions of Racism in STEM"
+subtitle: "A Scientific Mapping Analysis"
+author: 
+  - "Nathan Alexander, PhD (Howard University)"
+  - "Qyana Stewart, PhD student (Howard University)"
+  - "Basil Ghali, PhD student (Howard University)"
+output:
+  html_document:
+    theme: flatly
+  pdf_document: default
+editor_options:
+  markdown:
+    wrap: sentence
+---
+
+# Overview
+
+We conduct a systematic review of journal articles which examine racism in relation to the sciences, technology, engineering, and mathematics (STEM). The term 'notion' is used to describe context-dependent instances of racism that point to broader meanings, that exist across contexts, which go on to formulate the evolving understandings of racism, noticeable in different ways that scholars have defined racism across disciplines and different settings.
+
+## Conceptual Framework
+
+This study is motivated, in part, by the work of Shiao & Woody (2021) who discuss the various meanings of racism in sociological journal content. For the purpose of this study, our team sought to make sense of the nature of this intellectual structure in STEM, and the various concepts and themes that are situated within this structure.
+
+### Research question
+
+*What is the state of the intellectual structure and emerging notions in research on racism in STEM?*
+
+## Methodological Framework
+
+We integrate systematic review techniques with computational methods to generate the methods for the study. The systematic review process builds on qualitative meta-synthesis techniques, as well as content and thematic analysis. The computational methods follow the general scientific mapping workflow for working with large sets of citations data.
+
+### Data
+
+Four databases were used initially to identify the possible collections of sources, and to compare the various results obtained across databases.
+
+**ERIC**.
+
+**Scopus**.
+
+**Google Scholar**.
+
+**Web of Science (WoS)**. The WoS Core Collection was used to obtain bibliographic information for the study sample. The Science Citation Index Expanded (SCI-EXPANDED), Social Science Citation Index (SSCI), Arts & Humanities Citation Index (ACHI), and Emerging Sources Citation Index (ESCI) were selected. The Conference Proceedings Citation Index - Science (CPCI-S), Conference Proceedings Citation Index - Social Science (CPCI-SSH), Book Citaton Index - Science (BKCI-S), and Book Citation Index - Social Science & Humanities (BKCI-SSH) were not selected.
+
+Given the formal inclusion of psychology as one of the STEM disciplines by research foundations, such as the National Science Foundation (NSF) in the United States, social science bibliographic entries were included.
+
+WoS categories.
+
+Education Educational Research
+
+Education Scientific Disciplines
+
+Education Special
+
+Psychology Educational
+
+Social Sciences Interdisciplinary
+
+*Document Type*. The article category was selected as the document type.
+
+*Abstract*.
+
+*Title*.
+
+*Publication Date*. The publication date was set between 1992 (the earliest year available in the Wos subscription) to 2023. The data were further reduced for the six-year study time period (2017-2023).
+
+Citations were compared across database results and further data reduction was conducted.
+
+**Results**.
+
+Final data analysis was run on June 28, 2024. Prior to this period, multiple programs were designed and checked to ensure accuracy across different samples and generated psuedo data. All programs were confirmed to return the same results across studies.
+
+3,318,115 results from Science Citation Index Expanded (SCI-EXPANDED), Social Sciences Citation Index (SSCI), Arts & Humanities Citation Index (A&HCI), Emerging Sources Citation Index (ESCI): for ABSTRACT AND racism or science or technology or engineering or mathematics or stem
+https://www.webofscience.com/wos/woscc/summary/b7144fe8-2337-4d15-b2db-0fc78da08022-f78ebcfe/relevance/1
+
+
+## Analytic Framework
+
+```{r, echo=F, eval=T, fig.align='center'}
+library(DiagrammeR)
+
+grViz(" digraph model {
+
+    graph [layout = dot, overlap = true]
+    
+    node [shape=box]
+    Scoping -> Comparison -> Reduction;
+ 
+    node [shape=box]
+    data [label=<Bibliographic Entries>];
+    
+    node [shape=box]
+    format [label=<Document Matrix>];
+    
+# `edge` statements
+ 
+    edge [minlen = 2]
+    data -> format
+    format -> {Concepts Themes} 
+    {Concepts Themes} -> Notions
+    Meanings -> Notions
+ 
+ }") 
+```
+
+# Set up
+
+Load packages and import for data analysis.
+
+### Load packages
+
+```{r, echo=T, eval=T, warning=F}
+library(dplyr)
+library(readtext)
+library(tidyverse)
+library(here)
+library(gt)
+here::i_am("analysis.Rmd")
+```
+
+### Set up `Bibliometrix`
+
+```{r, echo=T, eval=T, warning=F}
+# install.packages("bibliometrix")
+library(bibliometrix)
+
+# test run biblioshiny
+# bibliometrix::biblioshiny()
+```
+
+### Load and convert data
+
+```{r, echo=T, eval=T, warning=F}
+# load wos database results
+records <- readtext(here("savedrecs-june27.txt"))
+
+# convert  file to a bibliometric df
+M <- convert2df(file=records, dbsource= "wos", format= "plaintext")
+```
+
+#### Notes
+
+  - The file contains 261 documents from lsi. 
+  
+  - The file is missing the `Cited References` (CR) as noted above; the CR were omitted as a part of the data generation process. 
+  
+  - The status of the DE (Keyword) category is labeled as `Poor` given that 62 missing counts (prop=0.2375) are listed; however, the ID (Keywords plus) category is listed as `Acceptable`, with only 30 missing counts (prop=0.1149). 
+  
+  - All other indicators are listed as `Good` (at least 1 missing count) or `Excellent` (0 missing counts).
+
+# Descriptive Analysis
+
+Although bibliometrics is primarily used to understand productivity and the impact of specific contributions to a field, the field has expanded to inform useful insights in systematic analysis.
+
+### Main information about the included studies
+
+```{r}
+results <- biblioAnalysis(M)
+summary(results, k=10, pause=F, width=130)
+```
+
+###
+
+
+###
+
+
+---
+
+## **References**
+
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
+
+Shiao & Woody (2019). The meaning of racism. *Sociological Perspectives, 12*(X), pp 100-101, Oxford.

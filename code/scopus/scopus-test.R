@@ -21,5 +21,8 @@ rscopus::set_api_key(Elsevier_API)
 insttoken <- "your_institutional_token"
 insttoken <- inst_token_header(insttoken)
 
-res = author_df(last_name = "Alexander", first_name = "Nathan", verbose = FALSE, general = FALSE)
+res2 = author_df(last_name = "Alexander", first_name = "Nathan", verbose = FALSE, general = FALSE)
+res2
 
+res
+View(res)

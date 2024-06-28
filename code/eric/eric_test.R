@@ -23,5 +23,5 @@ racism_racist_stem_pr
 
 racism_racist_stem$pr = racism_racist_stem_pr
 df <- racism_racist_stem %>% 
-  filter(pr$peerreviewed == TRUE)
+  filter(peerreviewed == TRUE)
 df

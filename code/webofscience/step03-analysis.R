@@ -1,6 +1,5 @@
 #step03-analysis in bibliometrix
 
-
 install.packages("bibliometrix")
 
 bibliometrix::biblioshiny()
@@ -22,6 +21,10 @@ bibliometrix::biblioshiny()
 
 # we also take care to the function of the server itself; so we consider the
 # nuances between each of the potential categories and their returns
+
+# can we analyze/investigate the context of articles and the authors' positionality
+# base on their term use?
+
 "rac*"
 "race*"
 "race"

@@ -17,6 +17,30 @@ data(countries)
 countries %>% 
   filter(country_code == "US")
 
+
+
+# racism since 2004
+racism2004 <-gtrends(c("racism"), time= "2004-01-01 2023-12-31", geo = "US")
+plot(racism2004)
+jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-google-trends/racism2004.jpeg") # save plot
+plot(racism10year)
+dev.off()
+
+# STEM since 2001
+stem2004 <-gtrends(c("STEM"), time= "2004-01-01 2023-12-31", geo = "US")
+plot(stem2004)
+jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-google-trends/stem2004.jpeg") # save plot
+plot(racism10year)
+dev.off()
+
+# stem and racism
+stem.racism<-gtrends(c("STEM", "racism"), time= "2004-01-01 2023-12-31", geo = "US")
+plot(stem.racism)
+jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-google-trends/stem-racism.jpeg") # save plot
+plot(covid.racism)
+dev.off()
+
+
 # covid
 covid.2013.01.01<-gtrends(c("covid"), time= "2013-01-01 2023-12-31", geo = "US")
 plot(covid.2013.01.01)
@@ -52,19 +76,8 @@ jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-
 plot(race.2013.01.01)
 dev.off()
 
-# racism (10-year trend)
-racism10year<-gtrends(c("racism"), time= "2013-01-01 2023-12-31", geo = "US")
-plot(racism10year)
-jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-google-trends/racism-10year.jpeg") # save plot
-plot(racism10year)
-dev.off()
 
-# covid and racism
-covid.racism<-gtrends(c("covid", "racism"), time= "2013-01-01 2023-12-31", geo = "US")
-plot(covid.racism)
-jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-google-trends/covid-racism-10year.jpeg") # save plot
-plot(covid.racism)
-dev.off()
+
 
 # covid and police
 covid.police<-gtrends(c("covid", "police"), time = "2013-01-01 2023-12-31", geo = "US")
@@ -83,10 +96,10 @@ plot_trend<-function(keyword_string){
            keyword=factor(keyword, levels = keyword_string))
   plot<-ggplot(data=time_trend, aes(x=date, y=as.numeric(hits), color=keyword)) +
     geom_smooth(method="loess",span=0.4, se=FALSE) +
-    geom_vline(xintercept = as.numeric(as.Date("2023-12-31"))) +
+    # geom_vline(xintercept = as.numeric(as.Date("2023-12-31"))) +
     theme_bw() +
-    scale_y_continuous(breaks = NULL) +
-    theme(legend.position = "bottom",
+    # scale_y_continuous(breaks = NULL) +
+    theme(legend.position = "right",
           legend.title = element_blank(),
           legend.text=element_text(size=10),
           axis.title.x=element_blank(),
@@ -94,6 +107,14 @@ plot_trend<-function(keyword_string){
   return(plot)
 }
 
-plot1<-plot_trend(keyword_string = c("racism","stem"))
-plot1
+plot1<-plot_trend(keyword_string = c("racism","stem")) + xlab("Dose (mg)") + ylab("Teeth length")
+plot1 
 
+four.terms.raci<-plot_trend(keyword_string = c("racist", 
+                                     "racism", 
+                                     "racial",
+                                     "racialization"))
+four.terms.raci
+jpeg(file= "/Users/nathanalexander/Dropbox/Projects/racism-stem-ed/output/plots-google-trends/four.terms.raci.jpeg") # save plot
+plot(four.terms.raci)
+dev.off()
