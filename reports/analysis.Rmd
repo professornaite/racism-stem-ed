@@ -22,6 +22,44 @@ We conduct a systematic review of journal articles which examine racism in relat
 
 This study is motivated, in part, by the work of Shiao & Woody (2021) who discuss the various meanings of racism in sociological journal content. For the purpose of this study, our team sought to make sense of the nature of this intellectual structure in STEM, and the various concepts and themes that are situated within this structure.
 
+| **Bonilla-Silva** | **Shiao and Woody**                 | **Notions** |
+|-----|-------------|---------|
+| _Pyschological_   | Individual attitudes                | Personal    |
+| _Cultural_        | Cultural schema                     | Cultural    |
+| _Structural_      | Structural: Pre-existing conditions | Historical  |
+|                   | Structural: Create or maintain      | Futural     |
+|                   | Structural: Spatial                 | Local       |
+|                   |                                     | Global      |
+
+### Replication
+
+A replication of the Shian & Woody results was obtained to ensure the appropriate steps for the conceptual replication were derived. The initial search for articles from the Web of Science Core Collection included the query (((TI=(racism or racist)) OR AB=(racism or racist)) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31)) AND LA=(English) returned 8,950 results. When the article requirement and individual collection indices were added (SSCI, A&HCI, ESCI, and SCI-EXPANDED), a total of 6,378 articles remained. When the results were subset to those indexed as Sociology, a total of 1,033 articles remained.
+
+(TI=(racism or racist) OR AB=(racism or racist) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31) AND LA=(English)
+
+#### Year span: 1995-2015
+
+When education journal articles were selected, a total of 853 results remained.
+https://www.webofscience.com/wos/woscc/summary/bfe60ccd-86c6-40d0-9ba5-16b667ff199e-f83fbe53/relevance/1 
+
+When science, technology, engineering, and mathematical subjects were selected a total of 1,462 results remained.
+https://www.webofscience.com/wos/woscc/summary/eff6a28e-2893-454e-a79f-13e94a7d6c0e-f83fba7d/relevance/1
+
+Forty results were returned when the sample is subset to education journal articles including one of the terms science, technology, engineering, mathematics, or STEM in their title or abstract.
+https://www.webofscience.com/wos/woscc/summary/d5c643f1-25c7-46c1-93ef-6f458652d262-f83fe3c7/relevance/1
+
+
+#### Year span: 2016-2023
+
+
+#### Analytic sample
+A final analytic sample of 280 articles was selected.
+These articles included the words racism or racist in their abstracts and at least one of the terms, science, technology, engineering, mathematics, or STEM in their abstracts); the time period was expanded to include article for the 20 year period from 2003 to 2023.
+https://www.webofscience.com/wos/woscc/summary/eadedc0d-de6e-47f6-be0d-a633f6fa6e1b-f8401e10/relevance/1
+
+
+
+
 ### Research question
 
 *What is the state of the intellectual structure and emerging notions in research on racism in STEM?*
@@ -43,6 +81,8 @@ Four databases were used initially to identify the possible collections of sourc
 **Web of Science (WoS)**. The WoS Core Collection was used to obtain bibliographic information for the study sample. The Science Citation Index Expanded (SCI-EXPANDED), Social Science Citation Index (SSCI), Arts & Humanities Citation Index (ACHI), and Emerging Sources Citation Index (ESCI) were selected. The Conference Proceedings Citation Index - Science (CPCI-S), Conference Proceedings Citation Index - Social Science (CPCI-SSH), Book Citaton Index - Science (BKCI-S), and Book Citation Index - Social Science & Humanities (BKCI-SSH) were not selected.
 
 Given the formal inclusion of psychology as one of the STEM disciplines by research foundations, such as the National Science Foundation (NSF) in the United States, social science bibliographic entries were included.
+
+[Query link]{https://www.webofscience.com/wos/woscc/summary/6d0d4c0d-2e83-4162-bd8f-077ad0a4cc34-f7d6e8a1/relevance/1}
 
 WoS categories.
 
@@ -132,7 +172,8 @@ library(bibliometrix)
 
 ```{r, echo=T, eval=T, warning=F}
 # load wos database results
-records <- readtext(here("savedrecs-june27.txt"))
+records <- readtext(here("final-sample.txt"))
+# https://www.webofscience.com/wos/woscc/summary/331dedce-0c5c-40cd-b63e-734077ea3736-f840d6cf/relevance/1
 
 # convert  file to a bibliometric df
 M <- convert2df(file=records, dbsource= "wos", format= "plaintext")
