@@ -1,5 +1,5 @@
 ---
-title: "Notions of Racism in STEM"
+title: "Examining Notions of Racism in Science, Technology, Engineering, and Mathematics"
 subtitle: "A Science Mapping Analysis"
 author: 
   - "Nathan Alexander, PhD (Howard University)"
@@ -16,17 +16,22 @@ editor_options:
 
 # Overview
 
-We conduct a systematic review of journal articles which examine racism in relation to the sciences, technology, engineering, and mathematics (STEM). The term 'notion' is used to describe context-dependent instances of racism that point to broader meanings, that exist across contexts, which go on to formulate the evolving understandings of racism, noticeable in different ways that scholars have defined racism across disciplines and different settings.
+We conceptualize a comparative systematic review (CSR) method to identify variations in bibliometric data on a topic of study. We focus comparisons on three sample data sets which contains articles on racism in the context of science, technology, engineering, and mathematics. Rather than generate increasingly defined criteria to inform the analysis, we focus on the study index within the bibliographic metadata. We find significant differences in the content and associations in author and keyword data, as well as occurrence networks and study themes. Those themes which occur across data sets are framed as notions, and posiiton as a part of a conceptual replication.
+
+CSR responds to the completeness dilemma in the analysis of bibliographic metadata. As research productivity increases and different lines of study are leveraged across different disciplines, CSR supports researchers in their development of inclusion and exclusion criteria for systematic reviews on increasingly mulitdisiplineary, interdisciplinary, and cross-disciplinary topics of study. We describe the differences of these frameworks as one example to situating the objects of data for a systematic analysis.
+
+We use the term 'notion' to examine the driving themes for the study. We examine context-dependent instances of racism that point to broader meanings across two sets of disciplinary outputs, in the education research indices and in science, technology, engineering, and mathematics (STEM) publication indices. We make sense of noticeable differences in the way that scholars have utilized racism across the disciplines and different scholarly outlets.
 
 ## Conceptual Framework
 
-This study is motivated, in part, by the work of Shiao & Woody (2021) who discuss the various meanings of racism in sociological journal content. For the purpose of this study, our team sought to make sense of the nature of this intellectual structure in STEM, and the various concepts and themes that are situated within this structure.
+This study is motivated, in part, by the work of Shiao & Woody (2021) who discuss the various meanings of racism in sociological journal content.
+For the purpose of this study, our team sought to make sense of the nature of this intellectual structure in STEM, and the various concepts and themes that are situated within this structure.
 
 | **Bonilla-Silva** | **Shiao and Woody**                 | **Notions** |
-|-----|-------------|---------|
-| _Pyschological_   | Individual attitudes                | Personal    |
-| _Cultural_        | Cultural schema                     | Cultural    |
-| _Structural_      | Structural: Pre-existing conditions | Historical  |
+|-------------------|-------------------------------------|-------------|
+| *Pyschological*   | Individual attitudes                | Personal    |
+| *Cultural*        | Cultural schema                     | Cultural    |
+| *Structural*      | Structural: Pre-existing conditions | Historical  |
 |                   | Structural: Create or maintain      | Futural     |
 |                   | Structural: Spatial                 | Local       |
 |                   |                                     | Global      |
@@ -45,14 +50,15 @@ This study is motivated, in part, by the work of Shiao & Woody (2021) who discus
 
 *Query date*: July 1, 2024
 
-
 ### Research question
 
 *What is the state of the intellectual structure and emerging notions in research on racism in STEM?*
 
 ## Methodological Framework
 
-We integrate systematic review techniques with computational methods to generate the methods for the study. The systematic review process builds on qualitative meta-synthesis techniques, as well as content and thematic analysis. The computational methods follow the general scientific mapping workflow for working with large sets of citations data.
+We integrate systematic review techniques with computational methods to generate the methods for the study.
+The systematic review process builds on qualitative meta-synthesis techniques, as well as content and thematic analysis.
+The computational methods follow the general scientific mapping workflow for working with large sets of citations data.
 
 ### Data
 
@@ -64,44 +70,53 @@ Four databases were used initially to identify the possible collections of sourc
 
 **Google Scholar**.
 
-**Web of Science (WoS)**. The WoS Core Collection was used to obtain bibliographic information for the study sample. The Science Citation Index Expanded (SCI-EXPANDED), Social Science Citation Index (SSCI), Arts & Humanities Citation Index (ACHI), and Emerging Sources Citation Index (ESCI) were selected. The Conference Proceedings Citation Index - Science (CPCI-S), Conference Proceedings Citation Index - Social Science (CPCI-SSH), Book Citaton Index - Science (BKCI-S), and Book Citation Index - Social Science & Humanities (BKCI-SSH) were not selected.
+**Web of Science (WoS)**.
+The WoS Core Collection was used to obtain bibliographic information for the study sample.
+The Science Citation Index Expanded (SCI-EXPANDED), Social Science Citation Index (SSCI), Arts & Humanities Citation Index (ACHI), and Emerging Sources Citation Index (ESCI) were selected.
+The Conference Proceedings Citation Index - Science (CPCI-S), Conference Proceedings Citation Index - Social Science (CPCI-SSH), Book Citaton Index - Science (BKCI-S), and Book Citation Index - Social Science & Humanities (BKCI-SSH) were not selected.
 
 Given the formal inclusion of psychology as one of the STEM disciplines by research foundations, such as the National Science Foundation (NSF) in the United States, social science bibliographic entries were included.
 
-[Query link]{https://www.webofscience.com/wos/woscc/summary/6d0d4c0d-2e83-4162-bd8f-077ad0a4cc34-f7d6e8a1/relevance/1}
+[Query link]{<https://www.webofscience.com/wos/woscc/summary/6d0d4c0d-2e83-4162-bd8f-077ad0a4cc34-f7d6e8a1/relevance/1>}
 
-A replication of the Shian & Woody results was obtained to ensure the appropriate steps for the conceptual replication were derived. The initial search for articles from the Web of Science Core Collection included the query (((TI=(racism or racist)) OR AB=(racism or racist)) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31)) AND LA=(English) returned 8,950 results. When the article requirement and individual collection indices were added (SSCI, A&HCI, ESCI, and SCI-EXPANDED), a total of 6,378 articles remained. When the results were subset to those indexed as Sociology, a total of 1,033 articles remained.
+A replication of the Shian & Woody results was obtained to ensure the appropriate steps for the conceptual replication were derived.
+The initial search for articles from the Web of Science Core Collection included the query (((TI=(racism or racist)) OR AB=(racism or racist)) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31)) AND LA=(English) returned 8,950 results.
+When the article requirement and individual collection indices were added (SSCI, A&HCI, ESCI, and SCI-EXPANDED), a total of 6,378 articles remained.
+When the results were subset to those indexed as Sociology, a total of 1,033 articles remained.
 
 (TI=(racism or racist) OR AB=(racism or racist) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31) AND LA=(English)
 
-#### Year span: 1995-2015
+### Pilot analysis: Year span: 1995-2015
 
 When education journal articles were selected, a total of 853 results remained.
-https://www.webofscience.com/wos/woscc/summary/bfe60ccd-86c6-40d0-9ba5-16b667ff199e-f83fbe53/relevance/1 
+<https://www.webofscience.com/wos/woscc/summary/bfe60ccd-86c6-40d0-9ba5-16b667ff199e-f83fbe53/relevance/1>
 
 When science, technology, engineering, and mathematical subjects were selected a total of 1,462 results remained.
-https://www.webofscience.com/wos/woscc/summary/eff6a28e-2893-454e-a79f-13e94a7d6c0e-f83fba7d/relevance/1
+<https://www.webofscience.com/wos/woscc/summary/eff6a28e-2893-454e-a79f-13e94a7d6c0e-f83fba7d/relevance/1>
 
 Forty results were returned when the sample is subset to education journal articles including one of the terms science, technology, engineering, mathematics, or STEM in their title or abstract.
-https://www.webofscience.com/wos/woscc/summary/d5c643f1-25c7-46c1-93ef-6f458652d262-f83fe3c7/relevance/1
+<https://www.webofscience.com/wos/woscc/summary/d5c643f1-25c7-46c1-93ef-6f458652d262-f83fe3c7/relevance/1>
 
+### Study analysis: Year span: 2003-2023
 
-#### Year span: 2016-2023
-
+The social turn in mathematics education was published in 2000.
+No Child Left Behind Act was enacted in 2001.
+There is a spike in research productivity in the period between 2000 and 2003.
 
 #### Analytic sample
-A final analytic sample of 254 articles was selected.
-These articles included the words racism or racist in their abstracts and at least one of the terms, science, technology, engineering, mathematics, or STEM in their abstracts); the time period was expanded to include article for the 20 year period from 2003 to 2023.
-https://www.webofscience.com/wos/woscc/summary/331dedce-0c5c-40cd-b63e-734077ea3736-f840d6cf/relevance/1
 
+A final analytic sample of 254 articles was selected.
+
+These articles included the words racism or racist in their abstracts and at least one of the terms, science, technology, engineering, mathematics, or STEM in their abstracts); the time period was expanded to include article for the 20 year period from 2003 to 2023.
+<https://www.webofscience.com/wos/woscc/summary/331dedce-0c5c-40cd-b63e-734077ea3736-f840d6cf/relevance/1>
 
 **Results**.
 
-Final data analysis was run on June 28, 2024. Prior to this period, multiple programs were designed and checked to ensure accuracy across different samples and generated psuedo data. All programs were confirmed to return the same results across studies.
+Final data analysis was run on June 28, 2024.
+Prior to this period, multiple programs were designed and checked to ensure accuracy across different samples and generated psuedo data.
+All programs were confirmed to return the same results across studies.
 
-3,318,115 results from Science Citation Index Expanded (SCI-EXPANDED), Social Sciences Citation Index (SSCI), Arts & Humanities Citation Index (A&HCI), Emerging Sources Citation Index (ESCI): for ABSTRACT AND racism or science or technology or engineering or mathematics or stem
-https://www.webofscience.com/wos/woscc/summary/b7144fe8-2337-4d15-b2db-0fc78da08022-f78ebcfe/relevance/1
-
+3,318,115 results from Science Citation Index Expanded (SCI-EXPANDED), Social Sciences Citation Index (SSCI), Arts & Humanities Citation Index (A&HCI), Emerging Sources Citation Index (ESCI): for ABSTRACT AND racism or science or technology or engineering or mathematics or stem <https://www.webofscience.com/wos/woscc/summary/b7144fe8-2337-4d15-b2db-0fc78da08022-f78ebcfe/relevance/1>
 
 ## Analytic Framework
 
@@ -119,14 +134,20 @@ grViz(" digraph model {
     data [label=<Bibliographic Entries>];
     
     node [shape=box]
-    format [label=<Document Matrix>];
+    dm1 [label=<Document Matrix 1>];
+    
+    node [shape=box]
+    dm2 [label=<Document Matrix 2>];
     
 # `edge` statements
  
     edge [minlen = 2]
-    data -> format
-    format -> {Concepts Themes} 
-    {Concepts Themes} -> Notions
+    data -> dm1
+    data -> dm2
+    dm1 -> {Concepts Themes} 
+    dm2 -> {Concepts Themes} 
+    Themes -> Meanings
+    Concepts -> Notions
     Meanings -> Notions
  
  }") 
@@ -138,18 +159,18 @@ Load packages and import for data analysis.
 
 ### Load packages
 
-```{r, echo=T, eval=T, warning=F}
+```{r, echo=F, eval=T, warning=F}
 library(dplyr)
 library(readtext)
 library(tidyverse)
 library(here)
 library(gt)
-here::i_am("analysis.Rmd")
+here::i_am("analysis1.Rmd")
 ```
 
 ### Set up `Bibliometrix`
 
-```{r, echo=T, eval=T, warning=F}
+```{r, echo=F, eval=T, warning=F}
 # install.packages("bibliometrix")
 library(bibliometrix)
 
@@ -159,7 +180,7 @@ library(bibliometrix)
 
 ### Load and convert data
 
-```{r, echo=T, eval=T, warning=F}
+```{r, echo=F, eval=T, warning=F}
 # load wos database results
 edrecords <- readtext(here("final-sample-ed.txt"))
 # https://www.webofscience.com/wos/woscc/summary/331dedce-0c5c-40cd-b63e-734077ea3736-f840d6cf/relevance/1
@@ -174,13 +195,13 @@ M2 <- convert2df(file=stemrecords, dbsource= "wos", format= "plaintext")
 
 #### Notes
 
-  - The file contains 261 documents from lsi. 
-  
-  - The file is missing the `Cited References` (CR) as noted above; the CR were omitted as a part of the data generation process. 
-  
-  - The status of the DE (Keyword) category is labeled as `Poor` given that 62 missing counts (prop=0.2375) are listed; however, the ID (Keywords plus) category is listed as `Acceptable`, with only 30 missing counts (prop=0.1149). 
-  
-  - All other indicators are listed as `Good` (at least 1 missing count) or `Excellent` (0 missing counts).
+-   The file contains 261 documents from lsi.
+
+-   The file is missing the `Cited References` (CR) as noted above; the CR were omitted as a part of the data generation process.
+
+-   The status of the DE (Keyword) category is labeled as `Poor` given that 62 missing counts (prop=0.2375) are listed; however, the ID (Keywords plus) category is listed as `Acceptable`, with only 30 missing counts (prop=0.1149).
+
+-   All other indicators are listed as `Good` (at least 1 missing count) or `Excellent` (0 missing counts).
 
 # Descriptive Analysis
 
@@ -198,14 +219,15 @@ summary(results2, k=20, pause=F, width=130)
 plot(x=results2, k=10, pause=F)
 ```
 
-
 ## Most Cited References
 
-Results across the two samples indicate that the two disciplinary structures pull from very different sources of literature. The source of literature in the education sciences is highly concentrated whereas the literature in the STEM fields is more distributed. 
+Results across the two samples indicate that the two disciplinary structures pull from very different sources of literature.
+The source of literature in the education sciences is highly concentrated whereas the literature in the STEM fields is more distributed.
 
 Kimberlee Crenshaw's 1993 Stanford Law Review article is the highest citation that shows up on both lists.
 
-Researchers publishing in STEM outlets tend to not cite studies from education research. Studiens in education reserach, similarly, tend to pull from other studies in education.
+Researchers publishing in STEM outlets tend to not cite studies from education research.
+Studiens in education reserach, similarly, tend to pull from other studies in education.
 
 ```{r}
 CR1 <- citations(M1, field = "article", sep = ";")
@@ -214,7 +236,6 @@ cbind(CR1$Cited[1:20])
 CR2 <- citations(M2, field = "article", sep = ";")
 cbind(CR2$Cited[1:20])
 ```
-
 
 # Intellectual Structure
 
@@ -239,7 +260,6 @@ summary(netstat1,k=20)
 netstat2 <- networkStat(NetMatrix2)
 summary(netstat2,k=20)
 ```
-
 
 ## Journal (source) co-citation analysis
 
@@ -266,7 +286,7 @@ options(width = 130)
 net2 <- histPlot(histResults2, n=20, size = 5, labelsize = 4)
 ```
 
-# Conceptual structre
+# Conceptual structure
 
 ## Co-word analysis
 
@@ -324,6 +344,7 @@ summary(netstat2,k=10)
 ```
 
 ### Correspondence analysis
+
 ```{r}
 suppressWarnings(
 CS1 <- conceptualStructure(M1, method="MCA", field="ID", minDegree=15, clust=5, stemming=FALSE, labelsize=8,documents=20)
@@ -337,12 +358,12 @@ CS2 <- conceptualStructure(M2, method="MCA", field="ID", minDegree=15, clust=5, 
 # Thematic map
 
 ```{r}
-Map1=thematicMap(M1, field = "ID", n = 250, minfreq = 4,
+Map1=thematicMap(M1, field = "ID", n = 250, minfreq = 10,
   stemming = FALSE, size = 0.7, n.labels=5, repel = TRUE)
 plot(Map1$map)
 
 
-Map2=thematicMap(M2, field = "ID", n = 250, minfreq = 4,
+Map2=thematicMap(M2, field = "ID", n = 250, minfreq = 10,
   stemming = FALSE, size = 0.7, n.labels=5, repel = TRUE)
 plot(Map2$map)
 
@@ -362,17 +383,48 @@ CL1
 CL2 <- Clusters2 %>% group_by(.data$Cluster_Label) %>% top_n(5, .data$Occurrences)
 CL2
 ```
----
+
+## Three-field plot
+
+```{r}
+M1 <- convert2df(file=edrecords, dbsource= "wos", format= "plaintext")
+M2 <- convert2df(file=stemrecords, dbsource= "wos", format= "plaintext")
+threeFieldsPlot(M1, fields = c("DE", "AU", "AU_CO"))
+threeFieldsPlot(M2, fields = c("DE", "AU", "AU_CO"))
+threeFieldsPlot(M1, fields = c("DE", "ID", "SO"))
+threeFieldsPlot(M2, fields = c("DE", "ID", "SO"))
+
+```
+
+------------------------------------------------------------------------
 
 ## **References**
 
-Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
+Aria, M.
+& Cuccurullo, C.
+(2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
 
-Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2022). Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy. *Sustainability, 14*(6), 3643. https://doi.org/10.3390/su14063643.
+Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M.
+(2022).
+Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy.
+*Sustainability, 14*(6), 3643.
+<https://doi.org/10.3390/su14063643>.
 
-Aria M., Misuraca M., Spano M. (2020) Mapping the evolution of social research and data science on 30 years of Social Indicators Research, *Social Indicators Research*. https://doi.org/10.1007/s11205-020-02281-3
+Aria M., Misuraca M., Spano M.
+(2020) Mapping the evolution of social research and data science on 30 years of Social Indicators Research, *Social Indicators Research*.
+<https://doi.org/10.1007/s11205-020-02281-3>
 
+Cobo, M. J., Lopez-Herrera, A. G., Herrera-Viedma, E., & Herrera, F.
+(2011).
+An approach for detecting, quantifying, and visualizing the evolution of a research field: A practical application to the fuzzy sets theory field.
+*Journal of Informetrics, 5*(1), 146-166.
 
-Cobo, M. J., Lopez-Herrera, A. G., Herrera-Viedma, E., & Herrera, F. (2011). An approach for detecting, quantifying, and visualizing the evolution of a research field: A practical application to the fuzzy sets theory field. *Journal of Informetrics, 5*(1), 146-166.
+Linnenluecke, M. K., Marrone, M., & Singh, A. K.
+(2020).
+Conducting systematic literature reviews and bibliometric analyses.
+*Australian Journal of Management, 45*(2), 175–194.
+<https://doi.org/10.1177/0312896219877678>
 
-Shiao & Woody (2019). The meaning of racism. *Sociological Perspectives, 12*(X), pp 100-101, Oxford.
+Shiao & Woody (2019).
+The meaning of racism.
+*Sociological Perspectives, 12*(X), pp 100-101, Oxford.
