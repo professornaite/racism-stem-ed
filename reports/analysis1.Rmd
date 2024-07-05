@@ -1,12 +1,15 @@
 ---
 title: "Examining Notions of Racism in Science, Technology, Engineering, and Mathematics"
-subtitle: "A Science Mapping Analysis"
+# subtitle: "A Science Mapping Analysis"
 author: 
-  - "Nathan Alexander, PhD (Howard University)"
-  - "Qyana Stewart, PhD student (Howard University)"
-  - "Basil Ghali, PhD student (Howard University)"
+  - "Nathan Alexander, PhD ^[Howard University, nathan.alexander@howard.edu]"
+  - "Qyana Stewart, PhD student ^[Howard University, qyana.stewart@howard.edu]"
+  - "Basil Ghali, PhD student ^[Howard University, basil.ghali@howard.edu]"
 output:
   html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
     theme: flatly
   pdf_document: default
 editor_options:
@@ -14,7 +17,43 @@ editor_options:
     wrap: sentence
 ---
 
-# Overview
+# Abstract
+
+**Keywords**
+
+**Citation**
+
+# Introduction
+
+## Defining race
+
+## Understanding racism
+
+Based on the search results, sociologists define racism in several different ways across various communities of scholarship:
+
+1. Structural/Institutional Approach:
+Some sociologists, like Bonilla-Silva, define racism as a structural phenomenon ingrained in society's institutions and systems, rather than just individual prejudice. This view sees racism as "a structure, a network of relations at social, political, economic, and ideological levels that shapes the life chances of the various races" [1].
+
+2. Cultural Approach: 
+Other scholars focus on racism as cultural messages, ideologies, and practices that produce and normalize racial inequities. For example, Ibram X. Kendi defines racism as "a marriage of racist policies and racist ideas that produces and normalizes racial inequities" [1].
+
+3. Individual Attitudes/Psychology Approach:
+Some earlier definitions focused more on racism as individual-level prejudice, bias, or hostility toward other racial groups. This view sees racism primarily as an individual problem of overt hostility [1].
+
+4. Group Conflict Approach:
+Some sociologists view racism as rooted in group-level competition over resources and power between racial groups [1].
+
+5. Intersectional Approach: 
+Scholars like Patricia Hill Collins examine how racism intersects with other systems of oppression like sexism and classism [1].
+
+6. "New Racism" Approaches:
+More recent theories look at subtle, covert forms of racism that persist in an era of declining overt racist attitudes, including concepts like colorblind racism, laissez-faire racism, etc. [1][2]
+
+The analysis by Shiao and Woody (2021) identified six distinct communities of scholars using different meanings and citations related to racism, spanning structural, cultural, and attitudinal conceptions [4]. They found that even though Bonilla-Silva's structural approach is considered "standard," it was primarily cited in only one of the six communities they identified.
+
+Overall, while there are some common elements, sociologists continue to debate and refine how to best conceptualize and study racism in contemporary society. The field appears to be moving toward more multidimensional understandings that can capture both overt and subtle manifestations of racism at individual, institutional, and cultural levels.
+
+## Examining research on racism
 
 We conceptualize a comparative systematic review (CSR) method to identify variations in bibliometric data on a topic of study. We focus comparisons on three sample data sets which contains articles on racism in the context of science, technology, engineering, and mathematics. Rather than generate increasingly defined criteria to inform the analysis, we focus on the study index within the bibliographic metadata. We find significant differences in the content and associations in author and keyword data, as well as occurrence networks and study themes. Those themes which occur across data sets are framed as notions, and posiiton as a part of a conceptual replication.
 
@@ -22,23 +61,30 @@ CSR responds to the completeness dilemma in the analysis of bibliographic metada
 
 We use the term 'notion' to examine the driving themes for the study. We examine context-dependent instances of racism that point to broader meanings across two sets of disciplinary outputs, in the education research indices and in science, technology, engineering, and mathematics (STEM) publication indices. We make sense of noticeable differences in the way that scholars have utilized racism across the disciplines and different scholarly outlets.
 
-## Conceptual Framework
+Beverly Daniel Tatum describes racism as "a system of advantage based on race" and adds that it is "not only a personal ideology based on racial prejudice, but a system involving cultural messages and institutional policies and practices as well as the beliefs and actions of individuals" (Tatum, 1997, p. 7).
+
+Ruth Wilson Gilmore defines racism as "the state-sanctioned or extralegal production and exploitation of group-differentiated vulnerability to premature death" (Gilmore, 2007, p. 28).
+
+Ibram X. Kendi defines racism as "a marriage of racist policies and racist ideas that produces and normalizes racial inequities" (Kendi, 2019, p. 18).
+
+> Racism is a structure, a network of relations at social, political, economic, and ideological levels that shapes the life chances of the various races (Bonilla-Silva, 2013, p. 26)
+
+# Conceptual Framework
 
 This study is motivated, in part, by the work of Shiao & Woody (2021) who discuss the various meanings of racism in sociological journal content.
 For the purpose of this study, our team sought to make sense of the nature of this intellectual structure in STEM, and the various concepts and themes that are situated within this structure.
 
-| **Bonilla-Silva** | **Shiao and Woody**                 | **Notions** |
-|-------------------|-------------------------------------|-------------|
-| *Pyschological*   | Individual attitudes                | Personal    |
-| *Cultural*        | Cultural schema                     | Cultural    |
-| *Structural*      | Structural: Pre-existing conditions | Historical  |
-|                   | Structural: Create or maintain      | Futural     |
-|                   | Structural: Spatial                 | Local       |
-|                   |                                     | Global      |
+| **Bonilla-Silva** | **Shiao and Woody**                 | 
+|:-------|:------------|
+| A: *Pyschological*   | A: Individual attitudes                |
+| B: *Cultural*        | B: Cultural schema                     |
+| C: *Structural*      | C$_1$: Structural: Pre-existing conditions |
+|                   | C$_2$: Structural: Create or maintain      |
+|                   | C$_3$: Structural: Spatial                 |
 
-### Replication
+## Replication
 
-#### Bibliographic collection
+### Bibliographic collection
 
 *Data source*: Clariate Analytics Web of Science
 
@@ -50,19 +96,36 @@ For the purpose of this study, our team sought to make sense of the nature of th
 
 *Query date*: July 1, 2024
 
-### Research question
+## Research question
 
 *What is the state of the intellectual structure and emerging notions in research on racism in STEM?*
 
+# Methods and Data
+
 ## Methodological Framework
 
-We integrate systematic review techniques with computational methods to generate the methods for the study.
-The systematic review process builds on qualitative meta-synthesis techniques, as well as content and thematic analysis.
-The computational methods follow the general scientific mapping workflow for working with large sets of citations data.
+We integrate systematic review techniques with computational methods to generate the methods for the study. The systematic review process builds on qualitative meta-synthesis techniques, as well as content and thematic analysis. The computational methods follow the general scientific mapping workflow for working with large sets of citations data.
 
-### Data
+### Pilot analysis: Year span: 1995-2015
 
-Four databases were used initially to identify the possible collections of sources, and to compare the various results obtained across databases.
+We conducted a replication of the Shian & Woody study. Study details were obtained from the original article, as well as cited or related articles, to ensure a set of  steps for the conceptual replication were derived. The initial search for articles from the Web of Science Core Collection included the query (((TI=(racism or racist)) OR AB=(racism or racist)) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31)) AND LA=(English) returned 8,950 results. When the article requirement and individual collection indices were added (SSCI, A&HCI, ESCI, and SCI-EXPANDED), a total of 6,378 articles remained. When the results were subset to those indexed as Sociology, a total of 1,033 articles remained.
+
+(TI=(racism or racist) OR AB=(racism or racist) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31) AND LA=(English)
+
+The search results returned a total of 1,430 articles, four less than the original study. The results were not able to duplicated was likely an issue of database updates. These changes were within an appropriate range to proceed. 
+
+When education journal indexed articles were selected, a total of 853 results remained.
+<https://www.webofscience.com/wos/woscc/summary/bfe60ccd-86c6-40d0-9ba5-16b667ff199e-f83fbe53/relevance/1>
+
+When science, technology, engineering, and mathematical indexed subjects were selected a total of 1,462 results remained.
+<https://www.webofscience.com/wos/woscc/summary/eff6a28e-2893-454e-a79f-13e94a7d6c0e-f83fba7d/relevance/1>
+
+Forty results were returned when the sample is subset to education journal articles including one of the terms science, technology, engineering, mathematics, or STEM in their title or abstract.
+<https://www.webofscience.com/wos/woscc/summary/d5c643f1-25c7-46c1-93ef-6f458652d262-f83fe3c7/relevance/1>
+
+## Databases
+
+Four databases were used initially to identify the possible collections of sources, and to compare the various results obtained across databases: ERIC, Google Scholar, Scopus, and Web of Science.
 
 **ERIC**.
 
@@ -70,53 +133,15 @@ Four databases were used initially to identify the possible collections of sourc
 
 **Google Scholar**.
 
-**Web of Science (WoS)**.
-The WoS Core Collection was used to obtain bibliographic information for the study sample.
-The Science Citation Index Expanded (SCI-EXPANDED), Social Science Citation Index (SSCI), Arts & Humanities Citation Index (ACHI), and Emerging Sources Citation Index (ESCI) were selected.
-The Conference Proceedings Citation Index - Science (CPCI-S), Conference Proceedings Citation Index - Social Science (CPCI-SSH), Book Citaton Index - Science (BKCI-S), and Book Citation Index - Social Science & Humanities (BKCI-SSH) were not selected.
+We noticed across these other databases which provide APIs to support the easy access to bibliometric data that variation would be a concern. As a result, we proceeded further with the conceptual replication by using the Web of Science Core Collection of bibliometric data. This selection provided us with an opportunity to examine one of the main goals of the study, which was to understand differences across disciplinary boundaries despite the increasingly interdisciplinary nature of the research on racism in STEM.
 
-Given the formal inclusion of psychology as one of the STEM disciplines by research foundations, such as the National Science Foundation (NSF) in the United States, social science bibliographic entries were included.
+**Web of Science (WoS)**. The WoS Core Collection was used to obtain bibliographic information for the study sample. The Science Citation Index Expanded (SCI-EXPANDED), Social Science Citation Index (SSCI), Arts & Humanities Citation Index (ACHI), and Emerging Sources Citation Index (ESCI) were selected. The Conference Proceedings Citation Index - Science (CPCI-S), Conference Proceedings Citation Index - Social Science (CPCI-SSH), Book Citaton Index - Science (BKCI-S), and Book Citation Index - Social Science & Humanities (BKCI-SSH) were not selected. Given the formal inclusion of psychology as one of the STEM disciplines by research foundations, such as the National Science Foundation (NSF) in the United States, social science bibliographic entries were included in the second sample.
 
 [Query link]{<https://www.webofscience.com/wos/woscc/summary/6d0d4c0d-2e83-4162-bd8f-077ad0a4cc34-f7d6e8a1/relevance/1>}
 
-A replication of the Shian & Woody results was obtained to ensure the appropriate steps for the conceptual replication were derived.
-The initial search for articles from the Web of Science Core Collection included the query (((TI=(racism or racist)) OR AB=(racism or racist)) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31)) AND LA=(English) returned 8,950 results.
-When the article requirement and individual collection indices were added (SSCI, A&HCI, ESCI, and SCI-EXPANDED), a total of 6,378 articles remained.
-When the results were subset to those indexed as Sociology, a total of 1,033 articles remained.
+### Inclusion and exclusion criteria
 
-(TI=(racism or racist) OR AB=(racism or racist) OR AK=(racism or racist)) AND DOP=(1995-01-01/2015-12-31) AND LA=(English)
-
-### Pilot analysis: Year span: 1995-2015
-
-When education journal articles were selected, a total of 853 results remained.
-<https://www.webofscience.com/wos/woscc/summary/bfe60ccd-86c6-40d0-9ba5-16b667ff199e-f83fbe53/relevance/1>
-
-When science, technology, engineering, and mathematical subjects were selected a total of 1,462 results remained.
-<https://www.webofscience.com/wos/woscc/summary/eff6a28e-2893-454e-a79f-13e94a7d6c0e-f83fba7d/relevance/1>
-
-Forty results were returned when the sample is subset to education journal articles including one of the terms science, technology, engineering, mathematics, or STEM in their title or abstract.
-<https://www.webofscience.com/wos/woscc/summary/d5c643f1-25c7-46c1-93ef-6f458652d262-f83fe3c7/relevance/1>
-
-### Study analysis: Year span: 2003-2023
-
-The social turn in mathematics education was published in 2000.
-No Child Left Behind Act was enacted in 2001.
-There is a spike in research productivity in the period between 2000 and 2003.
-
-#### Analytic sample
-
-A final analytic sample of 254 articles was selected.
-
-These articles included the words racism or racist in their abstracts and at least one of the terms, science, technology, engineering, mathematics, or STEM in their abstracts); the time period was expanded to include article for the 20 year period from 2003 to 2023.
-<https://www.webofscience.com/wos/woscc/summary/331dedce-0c5c-40cd-b63e-734077ea3736-f840d6cf/relevance/1>
-
-**Results**.
-
-Final data analysis was run on June 28, 2024.
-Prior to this period, multiple programs were designed and checked to ensure accuracy across different samples and generated psuedo data.
-All programs were confirmed to return the same results across studies.
-
-3,318,115 results from Science Citation Index Expanded (SCI-EXPANDED), Social Sciences Citation Index (SSCI), Arts & Humanities Citation Index (A&HCI), Emerging Sources Citation Index (ESCI): for ABSTRACT AND racism or science or technology or engineering or mathematics or stem <https://www.webofscience.com/wos/woscc/summary/b7144fe8-2337-4d15-b2db-0fc78da08022-f78ebcfe/relevance/1>
+Year: 2003-2023
 
 ## Analytic Framework
 
@@ -146,18 +171,36 @@ grViz(" digraph model {
     data -> dm2
     dm1 -> {Concepts Themes} 
     dm2 -> {Concepts Themes} 
-    Themes -> Meanings
-    Concepts -> Notions
+    Concepts -> Meanings
+    Themes -> Notions
     Meanings -> Notions
  
  }") 
 ```
 
-# Set up
 
-Load packages and import for data analysis.
+### Analytic sample
 
-### Load packages
+A final total analytic sample of 351 articles was selected for inclusion in the study.
+
+These articles included the words racism or racist in their abstracts and at least one of the terms, science, technology, engineering, mathematics, or STEM in their abstracts); the time period was expanded to include article for the 20 year period from 2003 to 2023.
+<https://www.webofscience.com/wos/woscc/summary/331dedce-0c5c-40cd-b63e-734077ea3736-f840d6cf/relevance/1>
+
+This expansion was based on the social contexts of major research outputs across science and mathematics education. Namely, the social turn in mathematics education was published in 2000. No Child Left Behind Act was enacted in 2001.
+There was also a spike in research productivity identified in the study samples during the cleaning and initial analysis (which included all years) for the specific period between 2000 and 2003.
+
+Final data analysis was run on July 3, 2024.
+
+Prior to this period, multiple programs were designed and checked to ensure accuracy across different samples and generated psuedo data.
+All programs were confirmed to return the same results across studies.
+
+3,318,115 results from Science Citation Index Expanded (SCI-EXPANDED), Social Sciences Citation Index (SSCI), Arts & Humanities Citation Index (A&HCI), Emerging Sources Citation Index (ESCI): for ABSTRACT AND racism or science or technology or engineering or mathematics or stem <https://www.webofscience.com/wos/woscc/summary/b7144fe8-2337-4d15-b2db-0fc78da08022-f78ebcfe/relevance/1>
+
+## Set up
+
+Load packages and libraries; import for data analysis.
+
+### Load libraries
 
 ```{r, echo=F, eval=T, warning=F}
 library(dplyr)
@@ -188,38 +231,115 @@ edrecords <- readtext(here("final-sample-ed.txt"))
 stemrecords <- readtext(here("final-sample-stem.txt"))
 # https://www.webofscience.com/wos/woscc/summary/507ef07d-4440-43c5-a139-c3148bf75a7f-f8416bcd/relevance/1
 
+combined <- rbind(edrecords, stemrecords)
+
 # convert  file to a bibliometric df
 M1 <- convert2df(file=edrecords, dbsource= "wos", format= "plaintext")
 M2 <- convert2df(file=stemrecords, dbsource= "wos", format= "plaintext")
+M3 <- convert2df(file=combined, dbsource= "wos", format= "plaintext")
 ```
 
-#### Notes
+We use the `duplicatedMatching()` function and [code suggestion](https://rdrr.io/github/massimoaria/bibliometrix/man/duplicatedMatching.html) to test for and remove any duplicate records in the bibliometric data. When duplicate records are noted, the data new data frame is used as the main object.
 
--   The file contains 261 documents from lsi.
+```{r, echo=T, eval=T}
 
--   The file is missing the `Cited References` (CR) as noted above; the CR were omitted as a part of the data generation process.
+M1_dup <- duplicatedMatching(M1, Field = "ID", exact=FALSE, tol = 0.95)
+dim(M1)
+dim(M1_dup)
+  
+M2_dup <- duplicatedMatching(M2, Field = "ID", exact=FALSE, tol = 0.95)
+dim(M2)
+dim(M2_dup)
 
--   The status of the DE (Keyword) category is labeled as `Poor` given that 62 missing counts (prop=0.2375) are listed; however, the ID (Keywords plus) category is listed as `Acceptable`, with only 30 missing counts (prop=0.1149).
+M3_dup <- duplicatedMatching(M3, Field = "TI", exact=FALSE, tol = 0.95)
+dim(M3)
+dim(M3_dup)
 
--   All other indicators are listed as `Good` (at least 1 missing count) or `Excellent` (0 missing counts).
+# the package developer noted that when using `duplicatedMatching` we get missing data that is required later in the analysis. I have worked around this issue by changing the Field from "TI" to "ID". While this tempoararily supports the analysis, a fix should be found to retain the bibliometric data from the ID columns as downloaded from WoS.
 
-# Descriptive Analysis
+```
+
+There was an issue with the code, so it was fixed using the `janitor()` functions.
+
+```{r, echo=F, eval=T}
+library(janitor)
+compare_df_cols(M1, M1_dup)
+compare_df_cols(M2, M2_dup)
+compare_df_cols(M3, M3_dup)
+
+# in an earlier analysis, a column was added to the data sets (CR_SO)
+# M1_dup <- M1_dup %>% remove(CR_SO) %>% as.data.frame()
+# M2_dup <- M2_dup %>% remove(CR_SO) %>% as.data.frame()
+
+```
+
+## Study data {.tabset}
+
+A total of three data frames were used for the study analysis.
+
+- M1. The file contained 278 records.
+- M2. The file contained 132 records. 
+- M3. The file contained 351 records.
+
+The status of the DE (Keyword) category is labeled as `Poor` given that 62 missing counts (prop=0.2375) are listed; however, the ID (Keywords plus) category is listed as `Acceptable`, with only 30 missing counts (prop=0.1149). All other indicators are listed as `Good` (at least 1 missing count) or `Excellent` (0 missing counts).
+
+### M1
+
+```{r}
+dim(M1_dup)
+head(M1_dup, n = 2)
+```
+
+### M2
+
+```{r}
+dim(M2_dup)
+head(M2_dup, n = 2)
+```
+
+### M3
+
+```{r}
+dim(M3_dup)
+head(M3_dup, n = 2)
+```
+
+# Findings
+
+## Descriptive Analysis
 
 Although bibliometrics is primarily used to understand productivity and the impact of specific contributions to a field, the field has expanded to inform useful insights in systematic analysis.
 
-### Main information about the included studies
+### Main findings about each data frame
+
+## Main findings {.tabset}
+
+### M1
 
 ```{r}
-results1 <- biblioAnalysis(M1)
+results1 <- biblioAnalysis(M1_dup)
 summary(results1, k=20, pause=F, width=130)
 plot(x=results1, k=10, pause=F)
+```
 
-results2 <- biblioAnalysis(M2)
+### M2
+
+```{r}
+results2 <- biblioAnalysis(M2_dup)
 summary(results2, k=20, pause=F, width=130)
 plot(x=results2, k=10, pause=F)
 ```
 
-## Most Cited References
+### M3
+
+```{r}
+results3 <- biblioAnalysis(M3_dup)
+summary(results3, k=20, pause=F, width=130)
+plot(x=results3, k=10, pause=F)
+```
+
+
+### Most Cited References
 
 Results across the two samples indicate that the two disciplinary structures pull from very different sources of literature.
 The source of literature in the education sciences is highly concentrated whereas the literature in the STEM fields is more distributed.
@@ -230,28 +350,38 @@ Researchers publishing in STEM outlets tend to not cite studies from education r
 Studiens in education reserach, similarly, tend to pull from other studies in education.
 
 ```{r}
-CR1 <- citations(M1, field = "article", sep = ";")
+CR1 <- citations(M1_dup, field = "article", sep = ";")
 cbind(CR1$Cited[1:20])
 
-CR2 <- citations(M2, field = "article", sep = ";")
+CR2 <- citations(M2_dup, field = "article", sep = ";")
 cbind(CR2$Cited[1:20])
+
+CR3 <- citations(M3_dup, field = "article", sep = ";")
+cbind(CR3$Cited[1:20])
 ```
 
-# Intellectual Structure
+$$e = { Zp(1-p) \over \sqrt{n} }$$
 
-## Co-citation analysis
+## Intellectual Structure
+
+### Co-citation analysis
 
 ```{r}
-NetMatrix1 <- biblioNetwork(M1, analysis = "co-citation", network = "references", sep = ";")
-net1=networkPlot(NetMatrix1, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=14, remove.multiple=T, labelsize=1,edgesize = 7, edges.min=4)
+NetMatrix1 <- biblioNetwork(M1_dup, analysis = "co-citation", network = "references", sep = ";")
+net1=networkPlot(NetMatrix1, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=T, labelsize=1,edgesize = 10, edges.min=5)
 ```
 
 ```{r}
-NetMatrix2 <- biblioNetwork(M2, analysis = "co-citation", network = "references", sep = ";")
-net2=networkPlot(NetMatrix2, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=14, remove.multiple=T, labelsize=1,edgesize = 7, edges.min=4)
+NetMatrix2 <- biblioNetwork(M2_dup, analysis = "co-citation", network = "references", sep = ";")
+net2=networkPlot(NetMatrix2, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=T, labelsize=1,edgesize = 10, edges.min=5)
 ```
 
-### Descriptive analysis of co-citation network characteristics
+```{r}
+NetMatrix3 <- biblioNetwork(M3_dup, analysis = "co-citation", network = "references", sep = ";")
+net3=networkPlot(NetMatrix3, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=T, labelsize=1,edgesize = 10, edges.min=5)
+```
+
+#### Descriptive analysis of co-citation network characteristics
 
 ```{r}
 netstat1 <- networkStat(NetMatrix1)
@@ -259,42 +389,60 @@ summary(netstat1,k=20)
 
 netstat2 <- networkStat(NetMatrix2)
 summary(netstat2,k=20)
+
+netstat3 <- networkStat(NetMatrix3)
+summary(netstat3,k=20)
 ```
 
-## Journal (source) co-citation analysis
+### Journal (source) co-citation analysis
 
 ```{r}
-M1=metaTagExtraction(M1,"CR_SO",sep=";")
-NetMatrix1 <- biblioNetwork(M1, analysis = "co-citation", network = "sources", sep = ";")
-net1=networkPlot(NetMatrix1, n = 30, Title = "Co-Citation Network", type = "auto", size.cex=TRUE, size=15, remove.multiple=FALSE, labelsize=1,edgesize = 10, edges.min=5)
+M1_dup=metaTagExtraction(M1_dup,"CR_SO",sep=";")
+NetMatrix1 <- biblioNetwork(M1_dup, analysis = "co-citation", network = "sources", sep = ";")
 
-M2=metaTagExtraction(M2,"CR_SO",sep=";")
-NetMatrix2 <- biblioNetwork(M2, analysis = "co-citation", network = "sources", sep = ";")
-net2=networkPlot(NetMatrix2, n = 30, Title = "Co-Citation Network", type = "auto", size.cex=TRUE, size=15, remove.multiple=FALSE, labelsize=1,edgesize = 10, edges.min=5)
-
+net1 = networkPlot(NetMatrix1, n = 50, Title = "Co-Citation Network", type = "auto", size.cex=TRUE, size=15, remove.multiple=FALSE, labelsize=1,edgesize = 10, edges.min=5)
 ```
 
-# Historiograph
+```{r}
+M2_dup=metaTagExtraction(M2_dup,"CR_SO",sep=";")
+NetMatrix2 <- biblioNetwork(M2_dup, analysis = "co-citation", network = "sources", sep = ";")
+
+net2 = networkPlot(NetMatrix2, n = 50, Title = "Co-Citation Network", type = "auto", size.cex=TRUE, size=15, remove.multiple=FALSE, labelsize=1,edgesize = 10, edges.min=5)
+```
 
 ```{r}
-histResults1 <- histNetwork(M1, sep = ";")
+M3_dup=metaTagExtraction(M3_dup,"CR_SO",sep=";")
+NetMatrix3 <- biblioNetwork(M3_dup, analysis = "co-citation", network = "sources", sep = ";")
+
+net3 = networkPlot(NetMatrix3, n = 50, Title = "Co-Citation Network", type = "auto", size.cex=TRUE, size=15, remove.multiple=FALSE, labelsize=1,edgesize = 10, edges.min=5)
+```
+
+## Historiograph
+
+```{r}
+histResults1 <- histNetwork(M1_dup, sep = ";")
 options(width = 130)
 net1 <- histPlot(histResults1, n=20, size = 5, labelsize = 4)
 
-histResults2 <- histNetwork(M2, sep = ";")
+histResults2 <- histNetwork(M2_dup, sep = ";")
 options(width = 130)
 net2 <- histPlot(histResults2, n=20, size = 5, labelsize = 4)
+
+histResults3 <- histNetwork(M3_dup, sep = ";")
+options(width = 130)
+net3 <- histPlot(histResults3, n=20, size = 5, labelsize = 4)
+
 ```
 
-# Conceptual structure
+## Conceptual structure
 
-## Co-word analysis
+### Co-word analysis
 
-### Keyword occurences
+#### Keyword occurences
 
 ```{r}
 
-NetMatrix1 <- biblioNetwork(M1, 
+NetMatrix1 <- biblioNetwork(M1_dup, 
                             analysis = "co-occurrences", 
                             network = "keywords", 
                             sep = ";")
@@ -304,16 +452,16 @@ net1=networkPlot(NetMatrix1,
                  Title = "Keyword Co-occurrences", 
                  type = "fruchterman", 
                  size.cex=TRUE, 
-                 size=10, 
+                 size=20, 
                  remove.multiple=F, 
                  edgesize = 10, 
-                 labelsize=3,
+                 labelsize=5,
                  label.cex=TRUE,
-                 label.n=15,
+                 label.n=30,
                  edges.min=2)
 
 
-NetMatrix2 <- biblioNetwork(M2, 
+NetMatrix2 <- biblioNetwork(M2_dup, 
                             analysis = "co-occurrences", 
                             network = "keywords", 
                             sep = ";")
@@ -322,12 +470,32 @@ net2=networkPlot(NetMatrix2,
                  n = 50, 
                  Title = "Keyword Co-occurrences", 
                  type = "fruchterman", 
-                 size.cex=TRUE, size=10, 
+                 size.cex=TRUE, 
+                 size=20, 
                  remove.multiple=F, 
                  edgesize = 10, 
-                 labelsize=3,
+                 labelsize=5,
                  label.cex=TRUE,
-                 label.n=15,
+                 label.n=30,
+                 edges.min=2)
+
+
+NetMatrix3 <- biblioNetwork(M3_dup, 
+                            analysis = "co-occurrences", 
+                            network = "keywords", 
+                            sep = ";")
+net3=networkPlot(NetMatrix3, 
+                 normalize="association", 
+                 n = 50, 
+                 Title = "Keyword Co-occurrences", 
+                 type = "fruchterman", 
+                 size.cex=TRUE, 
+                 size=20, 
+                 remove.multiple=F, 
+                 edgesize = 10, 
+                 labelsize=5,
+                 label.cex=TRUE,
+                 label.n=30,
                  edges.min=2)
 
 ```
@@ -336,26 +504,55 @@ Descriptive analysis of the keyword co-occurence network characteristics.
 
 ```{r}
 netstat1 <- networkStat(NetMatrix1)
-summary(netstat1,k=10)
+summary(netstat1, k=10)
 
 netstat2 <- networkStat(NetMatrix2)
-summary(netstat2,k=10)
+summary(netstat2, k=10)
+
+netstat3 <- networkStat(NetMatrix3)
+summary(netstat3, k=10)
 
 ```
 
-### Correspondence analysis
+#### Correspondence analysis
 
 ```{r}
-suppressWarnings(
-CS1 <- conceptualStructure(M1, method="MCA", field="ID", minDegree=15, clust=5, stemming=FALSE, labelsize=8,documents=20)
-)
-
-suppressWarnings(
-CS2 <- conceptualStructure(M2, method="MCA", field="ID", minDegree=15, clust=5, stemming=FALSE, labelsize=8,documents=20)
-)
+suppressWarnings(CS1 <- conceptualStructure(M1,
+                                            method="MCA", 
+                                            field="ID", 
+                                            minDegree=15, 
+                                            clust=5, 
+                                            stemming=FALSE, 
+                                            labelsize=15,
+                                            documents=20)
+                 )
 ```
 
-# Thematic map
+```{r}
+suppressWarnings(CS2 <- conceptualStructure(M2,
+                                            method="MCA", 
+                                            field="ID", 
+                                            minDegree=15, 
+                                            clust=4, 
+                                            stemming=FALSE, 
+                                            labelsize=15,
+                                            documents=20)
+                 )
+```
+
+```{r}
+suppressWarnings(CS3 <- conceptualStructure(M3,
+                                            method="MCA", 
+                                            field="ID", 
+                                            minDegree=15, 
+                                            clust=4, 
+                                            stemming=FALSE, 
+                                            labelsize=15,
+                                            documents=20)
+                 )
+```
+
+## Thematic map
 
 ```{r}
 Map1=thematicMap(M1, field = "ID", n = 250, minfreq = 10,
@@ -363,68 +560,252 @@ Map1=thematicMap(M1, field = "ID", n = 250, minfreq = 10,
 plot(Map1$map)
 
 
-Map2=thematicMap(M2, field = "ID", n = 250, minfreq = 10,
+Map2=thematicMap(M2, field = "ID", n = 250, minfreq = 15,
   stemming = FALSE, size = 0.7, n.labels=5, repel = TRUE)
 plot(Map2$map)
 
+Map3=thematicMap(M3, field = "ID", n = 250, minfreq = 15,
+  stemming = FALSE, size = 0.7, n.labels=5, repel = TRUE)
+plot(Map3$map)
+
 ```
 
-Cluster descriptions
+### Cluster descriptions
 
-```{r}
-library(dplyr)
+```{r clusters}
 
 Clusters1=Map1$words[order(Map1$words$Cluster,-Map1$words$Occurrences),]
 Clusters2=Map2$words[order(Map2$words$Cluster,-Map2$words$Occurrences),]
+Clusters3=Map3$words[order(Map3$words$Cluster,-Map3$words$Occurrences),]
 
 CL1 <- Clusters1 %>% group_by(.data$Cluster_Label) %>% top_n(5, .data$Occurrences)
 CL1
 
 CL2 <- Clusters2 %>% group_by(.data$Cluster_Label) %>% top_n(5, .data$Occurrences)
 CL2
+
+CL3 <- Clusters3 %>% group_by(.data$Cluster_Label) %>% top_n(5, .data$Occurrences)
+CL3
+
 ```
 
-## Three-field plot
+### Three-field plots
 
 ```{r}
-M1 <- convert2df(file=edrecords, dbsource= "wos", format= "plaintext")
-M2 <- convert2df(file=stemrecords, dbsource= "wos", format= "plaintext")
-threeFieldsPlot(M1, fields = c("DE", "AU", "AU_CO"))
-threeFieldsPlot(M2, fields = c("DE", "AU", "AU_CO"))
-threeFieldsPlot(M1, fields = c("DE", "ID", "SO"))
-threeFieldsPlot(M2, fields = c("DE", "ID", "SO"))
+
+threeFieldsPlot(M1_dup, fields = c("DE", "AU", "AU_CO"))
+threeFieldsPlot(M2_dup, fields = c("DE", "AU", "AU_CO"))
+threeFieldsPlot(M3_dup, fields = c("DE", "AU", "AU_CO"))
+
+threeFieldsPlot(M1_dup, fields = c("DE", "ID", "SO"))
+threeFieldsPlot(M2_dup, fields = c("DE", "ID", "SO"))
+threeFieldsPlot(M3_dup, fields = c("DE", "ID", "SO"))
 
 ```
+
+## Additional analyses
+
+Subset study data from M3 data frame to conduct additional analyses to extract meaning from data.
+
+### Corpus object of M3 abstracts
+
+Create corpus objects of abstracts (AB) in each of the data frames. Generate tokens for each term in the abstracts. Identify the keywords-in-context for selected studies. We also remove stopwords.
+
+```{r, echo=F, eval=T, warning=F}
+
+library(quanteda)
+library("quanteda.textmodels")
+library("quanteda.textstats")
+library("quanteda.textplots")
+
+M3_corp_abstract <- corpus(M3_dup$AB)
+M3_corp_abstract
+
+```
+
+
+### Keywords-in-context
+
+We use the keywords in context to gather the final component for the notions (concepts) (see fig. 1).
+
+```{r}
+
+toks <- M3_corp_abstract %>% 
+  corpus_subset() %>% 
+  tokens()
+
+racis <- c("Racis*")
+head(kwic(toks, pattern = phrase(racis)))
+tail(kwic(toks, pattern = phrase(racis)))
+
+racism <- c("Racism")
+head(kwic(toks, pattern = phrase(racism)))
+tail(kwic(toks, pattern = phrase(racism)))
+
+racist <- c("Racist")
+head(kwic(toks, pattern = phrase(racist)))
+tail(kwic(toks, pattern = phrase(racist)))
+
+structural <- c("Structural Racism")
+head(kwic(toks, pattern = phrase(structural)))
+tail(kwic(toks, pattern = phrase(structural)))
+
+systemic <- c("Systemic Racism")
+head(kwic(toks, pattern = phrase(systemic)))
+tail(kwic(toks, pattern = phrase(systemic)))
+
+anti <- c("Anti-Racism", "Antiracism")
+head(kwic(toks, pattern = phrase(anti)))
+tail(kwic(toks, pattern = phrase(anti)))
+
+black <- c("Blackness", "Black", "African-American", "African American")
+head(kwic(toks, pattern = phrase(black)))
+tail(kwic(toks, pattern = phrase(black)))
+
+white <- c("Whiteness", "White", "White-American", "White American", "White Supremacy")
+head(kwic(toks, pattern = phrase(white)))
+tail(kwic(toks, pattern = phrase(white)))
+
+crit <- c("Antiblackness", "Anti-Blackness", "Coloniality", "Colonialism")
+head(kwic(toks, pattern = phrase(mov)))
+tail(kwic(toks, pattern = phrase(mov)))
+
+STEM <- c("STEM")
+head(kwic(toks, pattern = phrase(STEM)))
+tail(kwic(toks, pattern = phrase(STEM)))
+
+# kwic(toks_M3_corp_abstract, pattern = "racism") %>% textplot_xray()
+
+```
+
+#### Compound tokens for multi-word expressions 
+
+```{r}
+comp_str_racism_toks <- tokens_compound(toks, pattern = phrase("Structural Racism"))
+head(tokens_select(comp_str_racism_toks, pattern = c("Structural_Racism")))
+tail(tokens_select(comp_str_racism_toks, pattern = c("Structural_Racism")))
+```
+
+
+Remove punctuation and stop words.
+
+```{r}
+
+toks <- M3_corp_abstract %>% 
+  corpus_subset() %>% 
+  tokens(remove_punct = T) %>% 
+  tokens_remove(pattern = stopwords('english')) %>% 
+  tokens()
+toks
+
+toks_M3_corp_abstract <- corpus_subset(M3_corp_abstract) %>% 
+  tokens(remove_punct = TRUE) %>% 
+  tokens_remove(pattern = stopwords('english')) %>% 
+  tokens()
+
+
+```
+
+### Document feature matrix
+
+```{r}
+
+dfm_rel_freq <- dfm_weight(dfm(toks_M3_corp_abstract), scheme = "prop") * 100
+head(dfm_rel_freq)
+
+```
+
+### Frequency plots
+
+```{r, echo=T, eval=T, warning=F}
+# frequency plots
+dfmat_racism_stem <- corpus_subset(M3_corp_abstract) |> 
+  tokens(remove_punct = TRUE) |>
+  tokens_remove(pattern = stopwords('english')) |>
+  dfm() |>
+  dfm_trim(min_termfreq = 10, verbose = FALSE)
+set.seed(3)
+textplot_wordcloud(dfmat_racism_stem)
+```
+
+Text stats frequency
+
+```{r}
+# text stats frequency
+
+tstat_freq_racism_stem <- textstat_frequency(dfmat_racism_stem, n = 100)
+
+ggplot(tstat_freq_racism_stem, aes(x = frequency, y = reorder(feature, frequency))) +
+  geom_point() + 
+  labs(x = "Frequency", y = "Feature")
+
+```
+
+# Discussion
+
+## Research database development
+
+### *Finding 1*: There are significant differences in the databases and data structures when dealing with bibliometric data at intersecting and dimensional topics of study. While generating more efficient computational practices, it raises new questions for systematic research. The intersections create an array of concepts and ideas which require an historical awareness and computational methods that can account for this intersection.
+
+* See study data and descriptive analysis section
+
+### *Finding 2*: Across three sets of *index differentiated* bibliometric data of research on racism in science, technology, engineering, mathematics, different (a) intellectual structures and (b) emerging notions exist when assessing the citation and thematic networks.
+
+* See intellectual structure, historiograph, conceptual structure, and thematic map sections
+
+## Interdisciplinary research
+
+### *Finding 3*: Given the increasingly interdisciplinary nature of research on racism in STEM, systematic analyses have to adjust for the loss of important contributions to the notions that may be studied and identified in other disciplines and fields of study.
+
+* See additional analysis section
+
+## Empirical studies of systemic racism in STEM
+
+### *Finding 4*: There is a need for more empirical studies to measure racism in the systemic context. With the rise of quantitative critical methods, this data and studies can improve the understanding of racism across contexts, given the deep foundational work that has been conducted already.
+
+# Conclusion
 
 ------------------------------------------------------------------------
 
-## **References**
+# References
 
-Aria, M.
-& Cuccurullo, C.
-(2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
 
-Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M.
-(2022).
-Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy.
-*Sustainability, 14*(6), 3643.
-<https://doi.org/10.3390/su14063643>.
+Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2022). Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy. *Sustainability, 14*(6), 3643. <https://doi.org/10.3390/su14063643>.
 
-Aria M., Misuraca M., Spano M.
-(2020) Mapping the evolution of social research and data science on 30 years of Social Indicators Research, *Social Indicators Research*.
-<https://doi.org/10.1007/s11205-020-02281-3>
+Aria M., Misuraca M., Spano M. (2020) Mapping the evolution of social research and data science on 30 years of Social Indicators Research, *Social Indicators Research*. <https://doi.org/10.1007/s11205-020-02281-3>
 
-Cobo, M. J., Lopez-Herrera, A. G., Herrera-Viedma, E., & Herrera, F.
-(2011).
-An approach for detecting, quantifying, and visualizing the evolution of a research field: A practical application to the fuzzy sets theory field.
-*Journal of Informetrics, 5*(1), 146-166.
+Benoit, Kenneth, Kohei Watanabe, Haiyan Wang, Paul Nulty, Adam Obeng, Stefan Müller, and Akitaka Matsuo. (2018) “quanteda: An R package for the quantitative analysis of textual data”. Journal of Open Source Software. 3(30), 774. https://doi.org/10.21105/joss.00774.
 
-Linnenluecke, M. K., Marrone, M., & Singh, A. K.
-(2020).
-Conducting systematic literature reviews and bibliometric analyses.
-*Australian Journal of Management, 45*(2), 175–194.
-<https://doi.org/10.1177/0312896219877678>
+Bonilla-Silva, E. (2013). *Racism without Racists: Color-Blind Racism and the Persistence of Racial Inequality in America* (4th ed.). Rowman & Littlefield Publishers.
 
-Shiao & Woody (2019).
-The meaning of racism.
-*Sociological Perspectives, 12*(X), pp 100-101, Oxford.
+Clair, M., & Denis, J. S. (2015). Sociology of Racism. International Encyclopedia of the Social & Behavioral Sciences, 2nd edition, Volume 19. http://dx.doi.org/10.1016/B978-0-08-097086-8.32122-5 
+https://projects.iq.harvard.edu/files/deib-explorer/files/sociology_of_racism.pdf
+
+Cobo, M. J., Lopez-Herrera, A. G., Herrera-Viedma, E., & Herrera, F. (2011). An approach for detecting, quantifying, and visualizing the evolution of a research field: A practical application to the fuzzy sets theory field. *Journal of Informetrics, 5*(1), 146-166.
+
+Gilmore, R. W. (2007). *Golden gulag: Prisons, surplus, crisis, and opposition in globalizing California*. University of California Press.
+
+Kendi, I. X. (2019). How to be an antiracist. One World.
+ 
+Linnenluecke, M. K., Marrone, M., & Singh, A. K. (2020). Conducting systematic literature reviews and bibliometric analyses. *Australian Journal of Management, 45*(2), 175–194. <https://doi.org/10.1177/0312896219877678>
+
+Shiao & Woody (2019). The meaning of racism. *Sociological Perspectives, 12*(X), pp 100-101, Oxford.
+
+Stokely, C. & Hamilton, C. V. (1967). Black Power: The Politics of Liberation in America. Vintage Books: New York.
+
+Tatum, B. D. (1997). "Why are all the Black kids sitting together in the cafeteria?": And other conversations about race. Basic Books. 
+
+https://scholar.harvard.edu/files/matthewclair/files/sociology_of_racism_clairandenis_2015.pdf
+
+https://projects.iq.harvard.edu/files/deib-explorer/files/sociology_of_racism.pdf
+
+https://en.wikipedia.org/wiki/Racism
+
+https://journals.sagepub.com/doi/10.1177/0731121420964239
+
+https://www.oxfordbibliographies.com/display/document/obo-9780199756384/obo-9780199756384-0173.xml
+
+
+
+
