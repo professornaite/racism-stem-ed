@@ -5,20 +5,23 @@ author:
 - Qyana Stewart, PhD student ^[Howard University, qyana.stewart@howard.edu]
 - Basil Ghali, PhD student ^[Howard University, basil.ghali@howard.edu]
 output:
+  word_document:
+    toc: true
+    toc_depth: '2'
+  pdf_document: default
   html_document:
     toc: true
     toc_depth: 2
     number_sections: true
     theme: flatly
-  pdf_document: default
-  word_document:
-    toc: true
-    toc_depth: '2'
 editor_options:
   markdown:
     wrap: sentence
 ---
 
+```{r setup, echo = F}
+knitr::opts_chunk$set(echo = F)
+```
 # Abstract
 
 **Keywords**
@@ -789,6 +792,7 @@ ggplot(tstat_freq_racism_stem, aes(x = frequency, y = reorder(feature, frequency
 ------------------------------------------------------------------------
 
 # References
+
 
 Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
 
