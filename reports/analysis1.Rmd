@@ -142,7 +142,7 @@ The findings by @crisp2024systematic relate to the use of those perspectives sit
 
 ### A Complexity, Specificity, and Variation Framework
 
-We extend a *complexity, specificity, and variation* (CSV) framework to inform the development of the study data sets and to conduct our analysis of selected data from studies of racism in STEM.
+We develop a *complexity, specificity, and variation* (CSV) framework to inform the development of the study data sets and to conduct our analysis of selected data from studies of racism in STEM.
 This framework allows us to systematically dissect and understand the multifaceted nature of racism research, offering a structured approach to examine the intricate details embedded within the data.
 By leveraging the CSV framework, we aim to provide a comprehensive and nuanced analysis that captures the depth and breadth of scholarly work in this critical area.
 This framework enhances the analysis of racism studies by providing a structured and multifaceted approach that captures the complexity, specificity, and variation inherent in this field of research.
