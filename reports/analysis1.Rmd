@@ -265,7 +265,8 @@ library(knitr)
 library(rmarkdown)
 bonilla = c("Psychological phenomena", "Cultural processes", "Social structure", "")
 shiao = c("Attitudes", "Cultural schema", "Structure: Pre-existing consequential inequalities", "Structure: Processes that create or maintain racial dominance")
-concept.table = data.frame("Bonilla-Silva $($1997$)$" = bonilla, "Shiao & Woody $($2001$)$" = shiao)
+concept.table = 
+  data.frame("Bonilla-Silva $($1997$)$" = bonilla, "Shiao & Woody $($2001$)$" = shiao)
 # concept.table
 # kable(concept.table)
 ```
