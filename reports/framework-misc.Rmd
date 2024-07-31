@@ -732,3 +732,31 @@ Citations:
 [3] https://blog.petrieflom.law.harvard.edu/2022/06/07/citational-racism-how-leading-medical-journals-reproduce-segregation-in-american-medical-knowledge/
 [4] https://www.canr.msu.edu/resources/structural_racism_in_us_food_system
 [5] https://attcnetwork.org/intersection-of-addiction-and-racism-a-curated-bibliography/
+
+
+
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| Criteria               | Code    | Criteria                                                                                                                                        |
++========================+=========+=================================================================================================================================================+
+| **Inclusion criteria** | IC1     | Article contains keyword pattern in either the title (TI), abstract (AB), or author keywords (DE)                                               |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                        | IC2     | Article published before 2024                                                                                                                   |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                        | IC3     | Article originally written in English                                                                                                           |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                        | IC4     | Article is a peer-reviewed journal article                                                                                                      |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                        | IC5     | Article problem, purpose, or core question(s) center on the topical subjects of the analysis as opposed to only mentioning author keywords (DE) |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Exclusion criteria** | EC1     | Article does constitute a complete citation record                                                                                              |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|                        | EC2     | Article contained ancillary content that is not focused on a clear and related research question                                                |
++------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Inclusion and exclusion criteria for the study
+
+
+
+critixal\footnote{An `x' is used here primarily as a literary tool -- and as a variable indicator -- to note that various meanings and conceptions of ``critical" can be identified in scholarly research.
+It is beyond the scope of this study to define the term \`critixal' but we point readers to @apple2010theory} (2010) for a sample of possible discourses around the general treatment of the term critical in education research.}
+

@@ -404,7 +404,6 @@ Although the protocol outlined in the PRISMA [@prisma2009] flow diagram was modi
 Articles selected for the study after data reduction were analyzed to ensure that they met a particular set of criteria to include or exclude the studies. There were five inclusion criteria (IC) for the study. IC1 required that the record contain the keyword patterns of racism, and some derivative of STEM, identified in either the title (TI), abstract (AB), or author keywords (DE) in the database. IC2 required that the record also had to be published before 2024. IC3 required that the record had to be originally written in English and IC4 required that the record had to appear in a peer-reviewed journal as an original journal article. IC5 required a more detailed analysis of the database records, to ensure that the records' problem, purpose, or core question(s) center on the topical subjects of the analysis as opposed to only mentioning author keywords (DE). There were two exclusion criteria (EC) for the studies. EC1 removed records that did not constitute a complete citation record. EC2 removed records that contained ancillary content that may not be focused on a clear and/or related research question.
 
 
-
 ## Document matrix summaries
 
 Each database, $M$, included a different number of observations but a total of 61 variables.
