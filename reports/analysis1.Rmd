@@ -63,23 +63,23 @@ Paper info:
 
 # Abstract
 
-In discussions of racism across the sciences, medicine, and technology are important critiques of dominant ideas and practices.
-Dominant ideas are artifacts of the historical foundations of a discipline, notable in references to “founding fathers” and a discipline’s foundational theories and beliefs.
-Dominant practices, in the more contemporary sense, are modern representations of the professional priorities resulting from a discipline’s dominant ideas – which often serve to maintain a status quo.
-In this article, the authors will employ mixed methodologies to examine how critically oriented scholars have challenged dominant ideas and practices in relation to racism in STEM (science, technology, engineering, and mathematics.s).
-In doing so, the authors develop a framework and critical data scientific method to highlight varying levels and typologies of racism, as well as historical patterns of white racial violence in both theory and practice.
+The abstract will go here.
 
-*Keywords*: racism, STEM, citation analysis, synthesis, race and ethnicity
+*Keywords*: STEM, racial, racist, citation analysis, synthesis, race and ethnicity
 
 \newpage
 
 # Introduction
 
-A global network of academics have identified how racism deeply impacts the well-being of communities, and the families and individuals that make up those communities.
-As these scholars increasingly cross disciplinary boundaries to make sense of how racism is both studied and understood in different contexts and across various ecosystems, overwhelming evidence is generated to show racism's widespread impact.
-This interdisciplinary body of scholarship not only identifies how racism holds consequences that are unique to each of the contexts in which racists attitudes and actions manifest, they also frame racism's similarities across social and political boundaries.
-As a working example, scholars in sociology have structured the concept and meaning of racism through individual perspectives (a single person's experience), what Bonilla-Silva refers to as "psychological phenomena" [@bonilla1997rethinking] and Shiao & Woody as "individual attitudes" [@shiao2021], which are differentiated from two other main perspectives: cultural perspectives and structural perspectives.
-Other scholars consider intersectional approaches in their studies of racism.
+A global network of academics have identified how racism deeply impacts the well-being of racialized communities and the families and individuals that make up those communities.
+As scholars increasingly cross disciplinary boundaries to make sense of how racism is both studied and understood in different contexts and across various ecosystems, overwhelming evidence is generated that shows racism's widespread impact in a material sense.
+The ways that the various social, emotional, and material impacts of racist attitudes and practices are understood are the result of many studies across different disciplines.
+Each of these disciplines identify and explore the various mechanisms through which racists actions and policies play out in the real world with associated levels of focus on different contexts.
+For example, racism studied in psychology may deal more with the social and emotional impacts of racism where racism as studied in economics may deal more with measures of the various drawbacks and payoffs of racism.
+As more studies are produced in this interdisciplinary body of scholarship, that not only identifies how racism holds consequences that are unique to each of the contexts in which racists attitudes and actions manifest, they frame racism's similarities across geographic, social, and broader ecological boundaries.
+
+As a working example in this paper, we discuss how scholars in sociology have structured the concept and meaning of racism through different perspectives. The individual perspectives (a single person's experience), and what Bonilla-Silva refers to as "psychological phenomena" [@bonilla1997rethinking] and Shiao & Woody as "individual attitudes" [@shiao2021], are differentiated from both the cultural and structural perspectives.
+Many scholars consider the varied intersectional frameworks and approaches in their studies of racism.
 For example, @nzinga2020lean situates "an intersectional feminist [lens] that recognizes the multiplicity of not only people’s identities and experiences but also institutionalized hierarchies of power such as race and gender, as well as stratified and segmented labor structure" (p. 11).
 These diverse perspectives are representative of the varied meanings that scholars attribute to racism and the intersectional perspectives that may be taken on in a particular domain of study.
 
@@ -139,14 +139,14 @@ The findings by @crisp2024systematic relate to the use of those perspectives sit
 
 @shiao2021's "three meanings of racism expand on @bonilla1997rethinking's distinction between conceptualizations of racism as (1) an “ultimately psychological phenomenon,” (2) the “cultural processes [of an] all powerful ideology,” and (3) “the foundation or structure of the social system” by observing that sociologists typically conceptualize each meaning in less restrictive terms. To examine racism across disciplines and within a domain, we build on @shiao2021's systematic study of racism in sociology. In this work, @shiao2021 make note that the "decision to connect concepts across the divide between comparative ethnicity and critical race theory may be controversial, but [they] find the general terminology of comparativists to be helpful for differentiating among uses of racism as structure and integrating the historical and group-specific analyses of U.S. critical race scholars" (p. ??). With these divides in mind, the two frameworks of racism presented by @bonilla1997rethinking and @shiao2021 were used to guide the conceptual replication and data analysis for the study.
 
-### A Complexity, Specificity, and Variation Framework
+### A Quantitative Historical Framework
 
-We extend a *complexity, specificity, and variation* (CSV) framework to inform the development of the study data sets and to conduct our analysis of selected data from studies on racism in STEM.
-This framework allows us to systematically dissect and understand the multifaceted nature of racism research, offering a structured approach to examine the intricate details embedded within the data.
-By leveraging the CSV framework, we aim to provide a comprehensive and nuanced analysis that captures the depth and breadth of scholarly work in this critical area.
-This framework enhances the analysis of racism studies by providing a structured and multifaceted approach that captures the complexity, specificity, and variation inherent in this field of research.
+We use the components of *complexity, specificity, and variation* to inform the analytic framework and data set development which was used to conduct our analysis on selected data from studies on racism in STEM.
+This framework allows us to systematically dissect and understand the multifaceted nature of racism research, offering a structured approach which considers the conditions, and histories, in the lines of inquiry for which to examine the details embedded within bibliometric data.
+By leveraging the quantitative historical framework, we provide a comprehensive analysis as noted by various systematic inquiries, and we nuance this analysis to captures the depth and breadth of scholarly work across different disciplinary boundaries.
+This framework enhances the analysis of racism in studies by discipline, providing a structured and multifaceted approach that captures the complexity, specificity, and variation inherent across this area of study.
 
-The CSV framework is situated primarily around the intersection of perspective and methods.
+The quantitative historical framework is situated primarily around a consideration of perspective and methods.
 Other frameworks that have been advanced in studies of racism through a structural approach, such as the Narrative Policy Framework (NPF; [@bertrand2024narrative; @stauffer2024narrative; @van2024policy]).
 Broadly, NPF offers a methodical way to study how policy actors use storytelling to influence debates about race and racism, allowing researchers to identify key structural elements of policy stories, such as settings, characters, plots, and morals.
 NPF also helps researchers analyze the strategies used by policy actors to influence public opinion on race-related issues by operating through analyses at "micro, meso, and macro" levels, providing for a more comprehensive examination of how narratives about race function at individual (micro), group (meso), and societal (macro) levels.
