@@ -1,9 +1,155 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+### Complexity
+
+Complexity refers to the constant development and evolving intricacies
+of social science research. In the present case, this includes the
+historical evolution of research on racism, the diverse theoretical
+perspectives employed by researchers, and the interplay of different
+topics of study across social, economic, and political factors that
+shape racial dynamics. For example, structural racism is a complex
+construct that operates through multiple domains and institutions,
+shaping research on topics across racial and ethnic groups over time.
+Attempts to incorporate this complexity with emerging themes in a
+broader conceptualizations of racism reveals a sophisticated web of
+factors that contribute to racial disparities.
+
+As a field of study expands globally, the complexity of bibliometric
+data also expands. This complexity is reflected in the varied ways
+different citation databases index, categorize, and archive research and
+is based, in part, on whose research is included in the database. The
+evolution of these databases mirrors the development of societies
+described by @Turchin_2017, with each database exhibiting unique
+characteristics while also sharing commonalities in their structure and
+function. The diversity of citation databases presents challenges and
+opportunities for researchers studying niche yet global topics like
+racism in STEM. It requires a nuanced approach to data analysis that
+accounts for the varying scope, coverage, and indexing practices of
+different databases. The complexity in bibliometric sources using a
+quantitative historical approach allows us to navigate the conceptual
+structures that exist in specific databases while also identifying
+overarching trends and patterns in the global discourse on racism in
+STEM.
+
+In their study on quantitative historical analysis, @Turchin_2017
+examine how characteristics of social scale across various geographical
+boundaries and in different countries exhibit strong evolutionary
+relationships, in one aspect, in terms of how different ideas and
+concepts may be studied by various human social groups and societies.
+The authors argue that as societies develop, so does the strength of how
+we might measure different "complexity characteristics." Using a global
+historical data bank, the authors found key aspects of human social
+organization tend to co-evolve in predictable ways, pointing to "huge
+commonalities" in the way that human societies evolve (p. E147). In the
+discussion on the expanding discourses on research on racism in STEM
+globally, @Turchin_2017's study presents the component of the
+theoretical framework which applies to the dimensions of complexity, a
+term which they note "has many colloquial meanings, and there are many
+valid ways in which it could be applied to human social organization"
+(p. 147). In our analysis, this methodological organization is based on
+the expansion of a research domain across a set of disciplines from a
+global perspective, which was the primary focus of @Turchin_2017's
+study. Our study integrated this global component of the quantitative
+historical analysis to inform the production of a database on racism in
+STEM that considers racism in national and in the global context.
+
+### Specificity
+
+Our use of specificity builds on the work of scholars in education
+[@cedillo2018beyond; @crisp2024systematic] and various areas of
+sociology who frame studies in a discipline across both the historical
+and contemporary contexts. The sociological scholarship helps develop
+our analysis of the notions of racism attributed not only in a
+discipline but across the various sub-disciplinary areas of study in
+sociology, as noted by [@ojeh2024black] and others [@Besek2021;
+@clair2015sociology; @wright2020jim; @Zuberi2004]. In this way,
+specificity involves honing in on particular aspects of racism, such as
+the various terms, frameworks, and methodological approaches, and the
+particular perspectives that are undertaken and conceptually developed.
+This focus allows us to draw meaningful conclusions about the state of
+racism research, identifying trends, gaps, and areas for further
+inquiry. By integrating specificity into our framework, we ensure that
+our analysis is detailed and contextually grounded.
+
+Our initial construction of specificity focused on a disciplinary
+boundary, which is often prioritized in systematic studies. For the
+purpose of this study, we sought to make sense of the intellectual
+structure of research in STEM [@dugger2010evolution] that centers on
+racism, and the various concepts and themes situated across its various
+sub-themes and domains. We integrate systematic review techniques with
+critical computational methods to generate the analysis for the study.
+The initial systematic review processes built on the specificity
+inherent in qualitative meta-synthesis techniques
+[@erwin2011understanding], such as disciplinary and conceptual
+boundaries. However, in further considering quantitative historical
+study as the leading framework for the study, we iteratively developed
+methods based on approaches identified by scholars across the
+disciplines, and especially those regarding conceptions of race and the
+need for specificity in studying racism.
+
+### Variation
+
+Our framing of variation is rooted in traditional methods employed in
+studies of bibliometric records [@alryalat2019comparing], enriched with
+insights developed from the complexity and specificity arms of the
+study. We develop these insights from the complexity and specificity
+arms of the study, and use prior research on the systematic analysis of
+research in STEM fields [@gil2020stem; @li2020; @li2022systematic] to
+build a critical framework. In these studies, variation relates to a
+practical matter of content inclusion and exclusion across a set of
+citation databases, based on differences in indexing practices, journal
+coverage, and disciplinary focus, which highlight the impact of
+researcher priorities and perspectives on database content. Here, the
+quantitative historical lens adds to the analysis of databases, attempts
+to identify emerging themes and methodologies, and helps understand how
+different sub-disciplines approach the topic of racism. This approach
+aids in mapping the complex intellectual landscape of racism research in
+STEM and in uncovering notions in the existing literature that relate to
+some of the work identified by scholars in sociology.
+
+Variation in this theoretical framing is also related to the use of the
+term STEM. STEM encompasses a diverse set of disciplines, each with its
+own research traditions, methodologies, and publication practices. This
+diversity leads to added variation in journal database content across
+STEM fields. For instance, computer science research may be heavily
+represented in databases like IEEE Xplore, while biological sciences
+might have stronger coverage in PubMed. The interdisciplinary nature of
+STEM, exemplified by calls to integrate art to frame STEAM (Science,
+Technology, Engineering, Arts, and Mathematics), further complicates
+database inclusion and representation. As STEM expands its reach and
+addresses complex issues like racism, the variation in database content
+becomes more pronounced.
+
+The diversity of research on racism in STEM raises important questions:
+How do different STEM disciplines approach and discuss racism? Which
+databases best capture the full spectrum of racism research across STEM
+fields? How does the representation of racism research vary between
+discipline-specific and multidisciplinary databases? Take, for example,
+@crisp2024systematic who conduct a systemic review of the varied
+theoretical perspectives guiding research on racism in higher education.
+In their study, the authors conduct a content analysis that integrated
+interdisciplinary perspectives and methods on the various theories used
+to study race and racism between 2010 and 2019. In their work, they
+found the use of critical race theory (CRT) perspectives were
+particularly situated as central to study in this area. The findings by
+@crisp2024systematic relate to the use of those perspectives situated
+across CRT frameworks and the systematic methods in understanding how
+particular terms are studied. @shiao2021 make this intersection in their
+study on the meaning of racism in STEM, which lends to the core framing
+on the conceptualization and meanings of racism within the complex ways
+that studies of racism may be situated.
+
+<https://www.sciencedirect.com/science/article/abs/pii/S0148296322005835>
 
 ```{r, echo=T}
 library(tidyverse)  # for %>% pipes
 library(DiagrammeR)
 library(DiagrammeRsvg)  # for conversion to svg
-library(rsvg)  # for saving svg
+require(rsvg)  # for saving svg
 
 tmp = DiagrammeR::grViz('digraph model {
 
@@ -43,7 +189,6 @@ export_graph(tmp,
 
 rsvg::rsvg_png(tmp, "test.png") # saved graph as png in current working directory
 ```
-
 
 ### Three-field plots
 
@@ -102,7 +247,11 @@ M2 <- convert2df(file=stemrecords, dbsource= "wos", format= "plaintext")
 M3 <- convert2df(file=combined, dbsource= "wos", format= "plaintext")
 ```
 
-We use the `duplicatedMatching()` function and [code suggestion](https://rdrr.io/github/massimoaria/bibliometrix/man/duplicatedMatching.html) to test for and remove any duplicate records in the bibliometric data. When duplicate records are noted, the data new data frame is used as the main object.
+We use the `duplicatedMatching()` function and [code
+suggestion](https://rdrr.io/github/massimoaria/bibliometrix/man/duplicatedMatching.html)
+to test for and remove any duplicate records in the bibliometric data.
+When duplicate records are noted, the data new data frame is used as the
+main object.
 
 ```{r, echo=F, eval=T, warning=F}
 
@@ -122,7 +271,8 @@ dim(M3_dup)
 
 ```
 
-There was an issue with the code, so it was fixed using the `janitor()` functions.
+There was an issue with the code, so it was fixed using the `janitor()`
+functions.
 
 ```{r, echo=F, eval=T, warning=F}
 library(janitor)
@@ -140,11 +290,15 @@ compare_df_cols(M3, M3_dup)
 
 A total of three data frames were used for the study analysis.
 
-- M1. The file contained 278 records.
-- M2. The file contained 132 records. 
-- M3. The file contained 351 records.
+-   M1. The file contained 278 records.
+-   M2. The file contained 132 records.
+-   M3. The file contained 351 records.
 
-The status of the DE (Keyword) category is labeled as `Poor` given that 62 missing counts (prop=0.2375) are listed; however, the ID (Keywords plus) category is listed as `Acceptable`, with only 30 missing counts (prop=0.1149). All other indicators are listed as `Good` (at least 1 missing count) or `Excellent` (0 missing counts).
+The status of the DE (Keyword) category is labeled as `Poor` given that
+62 missing counts (prop=0.2375) are listed; however, the ID (Keywords
+plus) category is listed as `Acceptable`, with only 30 missing counts
+(prop=0.1149). All other indicators are listed as `Good` (at least 1
+missing count) or `Excellent` (0 missing counts).
 
 ### M1
 
@@ -171,7 +325,9 @@ head(M3_dup, n = 2)
 
 ## Descriptive Analysis
 
-Although bibliometrics is primarily used to understand productivity and the impact of specific contributions to a field, the field has expanded to inform useful insights in systematic analysis.
+Although bibliometrics is primarily used to understand productivity and
+the impact of specific contributions to a field, the field has expanded
+to inform useful insights in systematic analysis.
 
 ### Main findings about each data frame
 
@@ -201,18 +357,21 @@ summary(results3, k=20, pause=F, width=130)
 plot(x=results3, k=10, pause=F)
 ```
 
-
 ### Most Cited References
 
-Results across the two samples indicate that the two disciplinary structures pull from very different sources of literature.
-The source of literature in the education sciences is highly concentrated whereas the literature in the STEM fields is more distributed.
+Results across the two samples indicate that the two disciplinary
+structures pull from very different sources of literature. The source of
+literature in the education sciences is highly concentrated whereas the
+literature in the STEM fields is more distributed.
 
 Ladson-Billings' 1995 Teachers College Record article ...
 
-Kimberlee Crenshaw's 1993 Stanford Law Review article is the highest citation that shows up on both lists.
+Kimberlee Crenshaw's 1993 Stanford Law Review article is the highest
+citation that shows up on both lists.
 
-Researchers publishing in STEM outlets tend to not cite studies from education research.
-Studiens in education reserach, similarly, tend to pull from other studies in education.
+Researchers publishing in STEM outlets tend to not cite studies from
+education research. Studiens in education reserach, similarly, tend to
+pull from other studies in education.
 
 ```{r, echo=F, eval=T, warning=F}
 CR1 <- citations(M1_dup, field = "article", sep = ";")
@@ -365,7 +524,8 @@ net3=networkPlot(NetMatrix3,
 
 ```
 
-Descriptive analysis of the keyword co-occurence network characteristics.
+Descriptive analysis of the keyword co-occurence network
+characteristics.
 
 ```{r, echo=F, eval=T, warning=F}
 netstat1 <- networkStat(NetMatrix1)
@@ -454,15 +614,16 @@ CL3
 
 ```
 
-
-
 ## Additional analyses
 
-Subset study data from M3 data frame to conduct additional analyses to extract meaning from data.
+Subset study data from M3 data frame to conduct additional analyses to
+extract meaning from data.
 
 ### Corpus object of M3 abstracts
 
-Create corpus objects of abstracts (AB) in each of the data frames. Generate tokens for each term in the abstracts. Identify the keywords-in-context for selected studies. We also remove stopwords.
+Create corpus objects of abstracts (AB) in each of the data frames.
+Generate tokens for each term in the abstracts. Identify the
+keywords-in-context for selected studies. We also remove stopwords.
 
 ```{r, echo=F, eval=T, warning=F}
 
@@ -476,10 +637,10 @@ M3_corp_abstract
 
 ```
 
-
 ### Keywords-in-context
 
-We use the keywords in context to gather the final component for the notions (concepts) (see fig. 1).
+We use the keywords in context to gather the final component for the
+notions (concepts) (see fig. 1).
 
 ```{r, echo=F, eval=T, warning=F}
 
@@ -531,14 +692,13 @@ tail(kwic(toks, pattern = phrase(STEM)))
 
 ```
 
-#### Compound tokens for multi-word expressions 
+#### Compound tokens for multi-word expressions
 
 ```{r, echo=F, eval=T, warning=F}
 comp_str_racism_toks <- tokens_compound(toks, pattern = phrase("Structural Racism"))
 head(tokens_select(comp_str_racism_toks, pattern = c("Structural_Racism")))
 tail(tokens_select(comp_str_racism_toks, pattern = c("Structural_Racism")))
 ```
-
 
 Remove punctuation and stop words.
 
@@ -602,17 +762,18 @@ ggplot(tstat_freq_racism_stem, aes(x = frequency, y = reorder(feature, frequency
 
 ### *Finding 1*: There are significant differences in the databases and data structures when dealing with bibliometric data at intersecting and dimensional topics of study. While generating more efficient computational practices, it raises new questions for systematic research. The intersections create an array of concepts and ideas which require an historical awareness and computational methods that can account for this intersection.
 
-* See study data and descriptive analysis section
+-   See study data and descriptive analysis section
 
 ### *Finding 2*: Across three sets of *index differentiated* bibliometric data of research on racism in science, technology, engineering, mathematics, different (a) intellectual structures and (b) emerging notions exist when assessing the citation and thematic networks.
 
-* See intellectual structure, historiograph, conceptual structure, and thematic map sections
+-   See intellectual structure, historiograph, conceptual structure, and
+    thematic map sections
 
 ## Interdisciplinary research
 
 ### *Finding 3*: Given the increasingly interdisciplinary nature of research on racism in STEM, systematic analyses have to adjust for the loss of important contributions to the notions that may be studied and identified in other disciplines and fields of study.
 
-* See additional analysis section
+-   See additional analysis section
 
 ## Empirical studies of systemic racism in STEM
 
@@ -624,139 +785,241 @@ ggplot(tstat_freq_racism_stem, aes(x = frequency, y = reorder(feature, frequency
 
 # References
 
+Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for
+comprehensive science mapping analysis, *Journal of Informetrics,
+11*(4), pp 959-975, Elsevier.
 
-Aria, M. & Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, *Journal of Informetrics, 11*(4), pp 959-975, Elsevier.
+Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M.
+(2022). Thematic Analysis as a New Culturomic Tool: The Social Media
+Coverage on COVID-19 Pandemic in Italy. *Sustainability, 14*(6), 3643.
+<https://doi.org/10.3390/su14063643>.
 
-Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2022). Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy. *Sustainability, 14*(6), 3643. <https://doi.org/10.3390/su14063643>.
+Aria M., Misuraca M., Spano M. (2020) Mapping the evolution of social
+research and data science on 30 years of Social Indicators Research,
+*Social Indicators Research*.
+<https://doi.org/10.1007/s11205-020-02281-3>
 
-Aria M., Misuraca M., Spano M. (2020) Mapping the evolution of social research and data science on 30 years of Social Indicators Research, *Social Indicators Research*. <https://doi.org/10.1007/s11205-020-02281-3>
+Benoit, Kenneth, Kohei Watanabe, Haiyan Wang, Paul Nulty, Adam Obeng,
+Stefan Müller, and Akitaka Matsuo. (2018) “quanteda: An R package for
+the quantitative analysis of textual data”. Journal of Open Source
+Software. 3(30), 774. <https://doi.org/10.21105/joss.00774>.
 
-Benoit, Kenneth, Kohei Watanabe, Haiyan Wang, Paul Nulty, Adam Obeng, Stefan Müller, and Akitaka Matsuo. (2018) “quanteda: An R package for the quantitative analysis of textual data”. Journal of Open Source Software. 3(30), 774. https://doi.org/10.21105/joss.00774.
+Bonilla-Silva, E. (2013). *Racism without Racists: Color-Blind Racism
+and the Persistence of Racial Inequality in America* (4th ed.). Rowman &
+Littlefield Publishers.
 
-Bonilla-Silva, E. (2013). *Racism without Racists: Color-Blind Racism and the Persistence of Racial Inequality in America* (4th ed.). Rowman & Littlefield Publishers.
+Clair, M., & Denis, J. S. (2015). Sociology of Racism. International
+Encyclopedia of the Social & Behavioral Sciences, 2nd edition, Volume
+19. <http://dx.doi.org/10.1016/B978-0-08-097086-8.32122-5>
+<https://projects.iq.harvard.edu/files/deib-explorer/files/sociology_of_racism.pdf>
 
-Clair, M., & Denis, J. S. (2015). Sociology of Racism. International Encyclopedia of the Social & Behavioral Sciences, 2nd edition, Volume 19. http://dx.doi.org/10.1016/B978-0-08-097086-8.32122-5 
-https://projects.iq.harvard.edu/files/deib-explorer/files/sociology_of_racism.pdf
+Cobo, M. J., Lopez-Herrera, A. G., Herrera-Viedma, E., & Herrera, F.
+(2011). An approach for detecting, quantifying, and visualizing the
+evolution of a research field: A practical application to the fuzzy sets
+theory field. *Journal of Informetrics, 5*(1), 146-166.
 
-Cobo, M. J., Lopez-Herrera, A. G., Herrera-Viedma, E., & Herrera, F. (2011). An approach for detecting, quantifying, and visualizing the evolution of a research field: A practical application to the fuzzy sets theory field. *Journal of Informetrics, 5*(1), 146-166.
-
-Gilmore, R. W. (2007). *Golden gulag: Prisons, surplus, crisis, and opposition in globalizing California*. University of California Press.
-
-Kendi, I. X. (2019). How to be an antiracist. One World.
- 
-Linnenluecke, M. K., Marrone, M., & Singh, A. K. (2020). Conducting systematic literature reviews and bibliometric analyses. *Australian Journal of Management, 45*(2), 175–194. <https://doi.org/10.1177/0312896219877678>
-
-Shiao & Woody (2019). The meaning of racism. *Sociological Perspectives, 12*(X), pp 100-101, Oxford.
-
-Stokely, C. & Hamilton, C. V. (1967). Black Power: The Politics of Liberation in America. Vintage Books: New York.
-
-Tatum, B. D. (1997). "Why are all the Black kids sitting together in the cafeteria?": And other conversations about race. Basic Books. 
-
-https://scholar.harvard.edu/files/matthewclair/files/sociology_of_racism_clairandenis_2015.pdf
-
-https://projects.iq.harvard.edu/files/deib-explorer/files/sociology_of_racism.pdf
-
-https://en.wikipedia.org/wiki/Racism
-
-https://journals.sagepub.com/doi/10.1177/0731121420964239
-
-https://www.oxfordbibliographies.com/display/document/obo-9780199756384/obo-9780199756384-0173.xml
-
-
-I apologize for the oversight in my previous response. You're right that I should have provided specific papers and definitions. Here are some key peer-reviewed journal articles on racism, with annotations, in APA format:
-
-Bonilla-Silva, E. (2015). The structure of racism in color-blind, "post-racial" America. American Behavioral Scientist, 59(11), 1358-1376.
-
-This seminal article explores Bonilla-Silva's concept of "color-blind racism" in contemporary America. It argues that despite claims of a "post-racial" society, racism persists through more subtle, institutionalized forms. The paper outlines four frames of color-blind racism: abstract liberalism, naturalization, cultural racism, and minimization of racism.
-
-Omi, M., & Winant, H. (2014). Racial formation in the United States. Routledge.
-
-While this is a book, it's heavily cited in peer-reviewed literature. Omi and Winant present the theory of racial formation, arguing that race is a socially constructed category that is constantly being transformed by political struggle. They define racism as "a structure of domination based on essentialist categories of race."
-
-Pager, D., & Shepherd, H. (2008). The sociology of discrimination: Racial discrimination in employment, housing, credit, and consumer markets. Annual Review of Sociology, 34, 181-209.
-
-This comprehensive review article examines racial discrimination across various domains of social life. It provides a sociological perspective on discrimination, defining it as "the unequal treatment of persons or groups on the basis of their race or ethnicity."
+Gilmore, R. W. (2007). *Golden gulag: Prisons, surplus, crisis, and
+opposition in globalizing California*. University of California Press.
 
 Kendi, I. X. (2019). How to be an antiracist. One World.
 
-Although not a peer-reviewed journal article, this book is frequently cited in academic literature. Kendi defines racism as "a marriage of racist policies and racist ideas that produces and normalizes racial inequities." He argues for a more active approach to combating racism through "antiracist" policies and actions.
+Linnenluecke, M. K., Marrone, M., & Singh, A. K. (2020). Conducting
+systematic literature reviews and bibliometric analyses. *Australian
+Journal of Management, 45*(2), 175–194.
+<https://doi.org/10.1177/0312896219877678>
 
-Tatum, B. D. (2017). Why are all the Black kids sitting together in the cafeteria?: And other conversations about race. Basic Books.
+Shiao & Woody (2019). The meaning of racism. *Sociological Perspectives,
+12*(X), pp 100-101, Oxford.
 
-This book, while not a journal article, is widely cited in academic literature on racism. Tatum defines racism as "a system of advantage based on race," emphasizing its systemic nature rather than individual acts of prejudice.
+Stokely, C. & Hamilton, C. V. (1967). Black Power: The Politics of
+Liberation in America. Vintage Books: New York.
 
-These sources provide a range of perspectives on defining and understanding racism, from structural approaches to more individual-focused definitions. They form a solid foundation for exploring notions of racism in STEM fields.
+Tatum, B. D. (1997). "Why are all the Black kids sitting together in the
+cafeteria?": And other conversations about race. Basic Books.
 
-Citations:
-[1] https://attcnetwork.org/intersection-of-addiction-and-racism-a-curated-bibliography/
-[2] https://amersa.org/intersection-of-addiction-and-racism-a-curated-bibliography/
-[3] https://www.canr.msu.edu/resources/structural_racism_in_us_food_system
-[4] https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1120938/full
-[5] https://www.diversityscience.org/bias-discrimination-references/
+<https://scholar.harvard.edu/files/matthewclair/files/sociology_of_racism_clairandenis_2015.pdf>
 
-Certainly. I'll provide five new annotated bibliographies from peer-reviewed journals, along with APA citations for these and the last four previously mentioned. Here are the new entries:
+<https://projects.iq.harvard.edu/files/deib-explorer/files/sociology_of_racism.pdf>
 
-1. Bonilla-Silva, E. (2015). The Structure of Racism in Color-Blind, "Post-Racial" America. American Behavioral Scientist, 59(11), 1358-1376. https://doi.org/10.1177/0002764215586826
+<https://en.wikipedia.org/wiki/Racism>
 
-This article explores the persistence of racial inequality in the United States despite claims of a "post-racial" society. Bonilla-Silva argues that racism has evolved into a more subtle, institutionalized form he calls "color-blind racism." He outlines four frames through which this operates: abstract liberalism, naturalization, cultural racism, and minimization of racism.
+<https://journals.sagepub.com/doi/10.1177/0731121420964239>
 
-2. Kendi, I. X. (2016). Stamped from the Beginning: The Definitive History of Racist Ideas in America. Nation Books.
+<https://www.oxfordbibliographies.com/display/document/obo-9780199756384/obo-9780199756384-0173.xml>
 
-While this is a book rather than a journal article, it's heavily cited in academic literature. Kendi traces the history of racist ideas in America, arguing that racist policies have led to racist ideas, not the other way around. He defines racism as "a marriage of racist policies and racist ideas that produces and normalizes racial inequities."
+I apologize for the oversight in my previous response. You're right that
+I should have provided specific papers and definitions. Here are some
+key peer-reviewed journal articles on racism, with annotations, in APA
+format:
 
-3. Pager, D., & Shepherd, H. (2008). The Sociology of Discrimination: Racial Discrimination in Employment, Housing, Credit, and Consumer Markets. Annual Review of Sociology, 34, 181-209. https://doi.org/10.1146/annurev.soc.33.040406.131740
+Bonilla-Silva, E. (2015). The structure of racism in color-blind,
+"post-racial" America. American Behavioral Scientist, 59(11), 1358-1376.
 
-This comprehensive review article examines racial discrimination across various domains of social life. The authors provide a sociological perspective on discrimination, defining it as "the unequal treatment of persons or groups on the basis of their race or ethnicity."
+This seminal article explores Bonilla-Silva's concept of "color-blind
+racism" in contemporary America. It argues that despite claims of a
+"post-racial" society, racism persists through more subtle,
+institutionalized forms. The paper outlines four frames of color-blind
+racism: abstract liberalism, naturalization, cultural racism, and
+minimization of racism.
 
-4. Crenshaw, K. (1991). Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color. Stanford Law Review, 43(6), 1241-1299. https://doi.org/10.2307/1229039
+Omi, M., & Winant, H. (2014). Racial formation in the United States.
+Routledge.
 
-While not exclusively focused on defining racism, this seminal article introduces the concept of intersectionality, which has become crucial in understanding how different forms of discrimination, including racism, interact and compound each other.
+While this is a book, it's heavily cited in peer-reviewed literature.
+Omi and Winant present the theory of racial formation, arguing that race
+is a socially constructed category that is constantly being transformed
+by political struggle. They define racism as "a structure of domination
+based on essentialist categories of race."
 
-5. Omi, M., & Winant, H. (2014). Racial Formation in the United States (3rd ed.). Routledge.
+Pager, D., & Shepherd, H. (2008). The sociology of discrimination:
+Racial discrimination in employment, housing, credit, and consumer
+markets. Annual Review of Sociology, 34, 181-209.
 
-This influential book, often cited in peer-reviewed literature, presents the theory of racial formation. The authors argue that race is a socially constructed category that is constantly being transformed by political struggle. They define racism as "a structure of domination based on essentialist categories of race."
+This comprehensive review article examines racial discrimination across
+various domains of social life. It provides a sociological perspective
+on discrimination, defining it as "the unequal treatment of persons or
+groups on the basis of their race or ethnicity."
+
+Kendi, I. X. (2019). How to be an antiracist. One World.
+
+Although not a peer-reviewed journal article, this book is frequently
+cited in academic literature. Kendi defines racism as "a marriage of
+racist policies and racist ideas that produces and normalizes racial
+inequities." He argues for a more active approach to combating racism
+through "antiracist" policies and actions.
+
+Tatum, B. D. (2017). Why are all the Black kids sitting together in the
+cafeteria?: And other conversations about race. Basic Books.
+
+This book, while not a journal article, is widely cited in academic
+literature on racism. Tatum defines racism as "a system of advantage
+based on race," emphasizing its systemic nature rather than individual
+acts of prejudice.
+
+These sources provide a range of perspectives on defining and
+understanding racism, from structural approaches to more
+individual-focused definitions. They form a solid foundation for
+exploring notions of racism in STEM fields.
+
+Citations: [1]
+<https://attcnetwork.org/intersection-of-addiction-and-racism-a-curated-bibliography/>
+[2]
+<https://amersa.org/intersection-of-addiction-and-racism-a-curated-bibliography/>
+[3]
+<https://www.canr.msu.edu/resources/structural_racism_in_us_food_system>
+[4]
+<https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1120938/full>
+[5] <https://www.diversityscience.org/bias-discrimination-references/>
+
+Certainly. I'll provide five new annotated bibliographies from
+peer-reviewed journals, along with APA citations for these and the last
+four previously mentioned. Here are the new entries:
+
+1.  Bonilla-Silva, E. (2015). The Structure of Racism in Color-Blind,
+    "Post-Racial" America. American Behavioral Scientist, 59(11),
+    1358-1376. <https://doi.org/10.1177/0002764215586826>
+
+This article explores the persistence of racial inequality in the United
+States despite claims of a "post-racial" society. Bonilla-Silva argues
+that racism has evolved into a more subtle, institutionalized form he
+calls "color-blind racism." He outlines four frames through which this
+operates: abstract liberalism, naturalization, cultural racism, and
+minimization of racism.
+
+2.  Kendi, I. X. (2016). Stamped from the Beginning: The Definitive
+    History of Racist Ideas in America. Nation Books.
+
+While this is a book rather than a journal article, it's heavily cited
+in academic literature. Kendi traces the history of racist ideas in
+America, arguing that racist policies have led to racist ideas, not the
+other way around. He defines racism as "a marriage of racist policies
+and racist ideas that produces and normalizes racial inequities."
+
+3.  Pager, D., & Shepherd, H. (2008). The Sociology of Discrimination:
+    Racial Discrimination in Employment, Housing, Credit, and Consumer
+    Markets. Annual Review of Sociology, 34, 181-209.
+    <https://doi.org/10.1146/annurev.soc.33.040406.131740>
+
+This comprehensive review article examines racial discrimination across
+various domains of social life. The authors provide a sociological
+perspective on discrimination, defining it as "the unequal treatment of
+persons or groups on the basis of their race or ethnicity."
+
+4.  Crenshaw, K. (1991). Mapping the Margins: Intersectionality,
+    Identity Politics, and Violence against Women of Color. Stanford Law
+    Review, 43(6), 1241-1299. <https://doi.org/10.2307/1229039>
+
+While not exclusively focused on defining racism, this seminal article
+introduces the concept of intersectionality, which has become crucial in
+understanding how different forms of discrimination, including racism,
+interact and compound each other.
+
+5.  Omi, M., & Winant, H. (2014). Racial Formation in the United States
+    (3rd ed.). Routledge.
+
+This influential book, often cited in peer-reviewed literature, presents
+the theory of racial formation. The authors argue that race is a
+socially constructed category that is constantly being transformed by
+political struggle. They define racism as "a structure of domination
+based on essentialist categories of race."
 
 Citations for the previously mentioned sources:
 
-6. Strauss, D., Gran-Ruaz, S., Osman, M., Williams, M. T., & Faber, S. C. (2023). Racism and censorship in the editorial and peer review process. Frontiers in Psychology, 14, 1120938. https://doi.org/10.3389/fpsyg.2023.1120938
+6.  Strauss, D., Gran-Ruaz, S., Osman, M., Williams, M. T., &
+    Faber, S. C. (2023). Racism and censorship in the editorial and peer
+    review process. Frontiers in Psychology, 14, 1120938.
+    <https://doi.org/10.3389/fpsyg.2023.1120938>
 
-7. Strauss, D., Gran-Ruaz, S., Osman, M., Williams, M. T., & Faber, S. C. (2023). Racism and censorship in the editorial and peer review process. PMC, 14, 1120938. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10237156/
+7.  Strauss, D., Gran-Ruaz, S., Osman, M., Williams, M. T., &
+    Faber, S. C. (2023). Racism and censorship in the editorial and peer
+    review process. PMC, 14, 1120938.
+    <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10237156/>
 
-8. Hardeman, R. R., Homan, P. A., Chantarat, T., Davis, B. A., & Brown, T. H. (2022). Improving the measurement of structural racism to achieve antiracist health policy. Health Affairs, 41(2), 179-186. https://doi.org/10.1377/hlthaff.2021.01489
+8.  Hardeman, R. R., Homan, P. A., Chantarat, T., Davis, B. A., &
+    Brown, T. H. (2022). Improving the measurement of structural racism
+    to achieve antiracist health policy. Health Affairs, 41(2), 179-186.
+    <https://doi.org/10.1377/hlthaff.2021.01489>
 
-9. Kelly, R., Pirog, R., Carr, K., Guel, A., Henderson, J., Wilcox, K., Wimberg, T., García Polanco, V., Babayode, D., Watson, K., Nelson, E, & Burnstein, S. (2023). An annotated bibliography on structural racism present in the U.S. food system (10th ed.). Michigan State University Center for Regional Food Systems. https://foodsystems.msu.edu/resources/structural_racism_in_us_food_system
+9.  Kelly, R., Pirog, R., Carr, K., Guel, A., Henderson, J., Wilcox, K.,
+    Wimberg, T., García Polanco, V., Babayode, D., Watson, K., Nelson,
+    E, & Burnstein, S. (2023). An annotated bibliography on structural
+    racism present in the U.S. food system (10th ed.). Michigan State
+    University Center for Regional Food Systems.
+    <https://foodsystems.msu.edu/resources/structural_racism_in_us_food_system>
 
-Citations:
-[1] https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1120938/full
-[2] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10237156/
-[3] https://blog.petrieflom.law.harvard.edu/2022/06/07/citational-racism-how-leading-medical-journals-reproduce-segregation-in-american-medical-knowledge/
-[4] https://www.canr.msu.edu/resources/structural_racism_in_us_food_system
-[5] https://attcnetwork.org/intersection-of-addiction-and-racism-a-curated-bibliography/
+Citations: [1]
+<https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1120938/full>
+[2] <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10237156/> [3]
+<https://blog.petrieflom.law.harvard.edu/2022/06/07/citational-racism-how-leading-medical-journals-reproduce-segregation-in-american-medical-knowledge/>
+[4]
+<https://www.canr.msu.edu/resources/structural_racism_in_us_food_system>
+[5]
+<https://attcnetwork.org/intersection-of-addiction-and-racism-a-curated-bibliography/>
 
-
-
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| Criteria               | Code    | Criteria                                                                                                                                        |
-+========================+=========+=================================================================================================================================================+
-| **Inclusion criteria** | IC1     | Article contains keyword pattern in either the title (TI), abstract (AB), or author keywords (DE)                                               |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|                        | IC2     | Article published before 2024                                                                                                                   |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|                        | IC3     | Article originally written in English                                                                                                           |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|                        | IC4     | Article is a peer-reviewed journal article                                                                                                      |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|                        | IC5     | Article problem, purpose, or core question(s) center on the topical subjects of the analysis as opposed to only mentioning author keywords (DE) |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Exclusion criteria** | EC1     | Article does constitute a complete citation record                                                                                              |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|                        | EC2     | Article contained ancillary content that is not focused on a clear and related research question                                                |
-+------------------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| Criteria               | Code | Criteria                                                                                                                                        |
+|------------|------------|-------------------------------------------------|
+| **Inclusion criteria** | IC1  | Article contains keyword pattern in either the title (TI), abstract (AB), or author keywords (DE)                                               |
+|                        | IC2  | Article published before 2024                                                                                                                   |
+|                        | IC3  | Article originally written in English                                                                                                           |
+|                        | IC4  | Article is a peer-reviewed journal article                                                                                                      |
+|                        | IC5  | Article problem, purpose, or core question(s) center on the topical subjects of the analysis as opposed to only mentioning author keywords (DE) |
+| **Exclusion criteria** | EC1  | Article does constitute a complete citation record                                                                                              |
+|                        | EC2  | Article contained ancillary content that is not focused on a clear and related research question                                                |
 
 : Inclusion and exclusion criteria for the study
 
-
-
 critixal\footnote{An `x' is used here primarily as a literary tool -- and as a variable indicator -- to note that various meanings and conceptions of ``critical" can be identified in scholarly research.
-It is beyond the scope of this study to define the term \`critixal' but we point readers to @apple2010theory} (2010) for a sample of possible discourses around the general treatment of the term critical in education research.}
+It is beyond the scope of this study to define the term \`critixal' but we point readers to @apple2010theory}
+(2010) for a sample of possible discourses around the general treatment
+of the term critical in education research.}
 
+```{r, include=F}
+library(knitr)
+library(rmarkdown)
+bonilla = c("Psychological phenomena", "Cultural processes", "Social structure", "")
+shiao = c("Attitudes", "Cultural schema", "Structure: Pre-existing consequential inequalities", "Structure: Processes that create or maintain racial dominance")
+concept.table = 
+  data.frame("Bonilla-Silva $($1997$)$" = bonilla, "Shiao & Woody $($2001$)$" = shiao)
+# concept.table
+# kable(concept.table)
+```
