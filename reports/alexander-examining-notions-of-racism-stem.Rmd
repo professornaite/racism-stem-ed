@@ -82,7 +82,7 @@ Although racism manifests in different ways, such as in attitudes and public pol
 Each of the disciplines in this broad body of work that examines racism take different routes to make sense of the the mechanisms through which racist systems, policies, and actions manifest.
 Scholars' use of these different conceptual entry points and scientific methods to guide their analysis, as well as geographical considerations, raise questions about the application of standard computational frameworks to lead the analysis of an increasingly diversifying and niche but global body of scholarship.
 
-We leverage studies from the social sciences and humanities to offer methodological insights into how research on racism has been collected and framed as a body of scholarship [@diebolt2001bibliometric; @go2020race; @green2015sociology; @ojeh2024black; @shiao2021].
+We leverage studies from the social sciences and humanities to offer methodological insights into how research on racism has been collected and framed as a body of scholarship [@diebolt2001cliometric; @go2020race; @green2015sociology; @ojeh2024black; @shiao2021].
 In the computational social sciences, for example, large-scale citation analyses are used to draw research from specific thematic indices and regions as found in an article's bibliographic content [@walker2018].
 Academic resource databases like EBSCO and PubMed allow citations to be filtered by discipline and other features, such as keyword, region, and year; and, as a result, often produce different bibliometric analytic outputs that shift how scholars may frame or interpret a given body of literature [@alryalat2019comparing; @norris2007comparing; @vieira2009comparison; @wanyama2022you].
 Moreover, it is not always clear through which channels this emerging scholarship on racism should be or is currently centered.
@@ -134,22 +134,16 @@ Still, large-scale analyses serve a role in the broader conceptualizations of ra
 The present study is motivated by the work of scholars who take note of the increasingly global nature of research on racism and the differences in emphasis between structure and process.
 Ultimately, we build on the notes provided by @martin2024race, in an article on mathematics education, citing Essed & Goldberg (2022), who note that *racism* “is a *structure* because racial dominance exists in and is reproduced by the system through the formulation and applications of rules, laws, and regulations and through access to and the allocation of resources.
 Finally, racism is a *process* because structures and ideologies do not exist outside the everyday practices through which they are created and confirmed.
-These practices both adapt to and themselves contribute to changing social, economic, and political conditions in society” (@essed2001race, [2002](https://link.springer.com/article/10.1007/s10649-024-10346-0#ref-CR16 "Essed, P., & Goldberg, D. (Eds.) (2002). Race critical theories: Text and context. Blackwell."), p. 185, emphases in original).
-From a methodological perspective, we build on @shiao2021 who discuss the various meanings of racism in sociological journal content.
+These practices both adapt to and themselves contribute to changing social, economic, and political conditions in society” (@essed2001race, p. 185, emphases in original).
+From a methods perspective, we build on @shiao2021 who analyze the meaning of racism in sociological journal content.
 
-@shiao2021 build on @abend2008meaning's conceptualization of the study of 'theory', and they examine the meanings attributed to racism to expand on @bonilla1997rethinking conceptualizations of racism situated as (1) an "ultimately psychological phenomenon," (2) the "cultural processes [of an] all powerful ideology," and (3) "the foundation or structure of the social system," where he observes that sociologists typically conceptualize each meaning in less restrictive terms (p. 466-467).
-@shiao2021's systematic analysis of a corpora of bibliometric data present ways to understand make sense of how a research domain unfolds over a period of time.
-In the present case, the diverse topics across what is conceived as 'STEM', while useful for framing a set of highly related disciplines, fail to provide a common framework for the analysis of scientific literature.
-As research on racism expands, the framing used around various concepts in relation to STEM will offer important insights.
-These insights can be understood through an analysis of the various notations scholars have situated around the study of racism.
+@shiao2021 build on @abend2008meaning to examine the meanings attributed to racism and they expand on the conceptualizations in @bonilla1997rethinking situated as (1) an "ultimately psychological phenomenon," (2) the "cultural processes [of an] all powerful ideology," and (3) "the foundation or structure of the social system," where he observes that sociologists typically conceptualize each meaning in less restrictive terms (p. 466-467).
+@shiao2021 use a corpora of bibliometric data to make sense of research on racism in STEM.
+In the present study, the topics across what is conceived as 'STEM' fail to provide a common framework for a singular analysis of scientific literature.
+As the research on racism expands in STEM, the use of various concepts in relation to racism offers important insights.
+These insights can be understood through an analysis of how scholars discuss the study of racism.
 
-To examine racism across disciplines and within a domain, we build on @shiao2021's systematic study of racism in sociology.
-In this work, @shiao2021 notes that the "decision to connect concepts across the divide between comparative ethnicity and critical race theory may be controversial, but [they] find the general terminology of comparativists to be helpful for differentiating among uses of racism as structure and integrating the historical and group-specific analyses of U.S. critical race scholars" (p. 3).
-With these divides in mind, the two frameworks of racism presented by @bonilla1997rethinking and @shiao2021 were used to guide the conceptual replication and data analysis for the study.
-
-@bonilla2021 notes that "Theorists must respond to critics, address new data, allow for new ideas, concepts, and orientations to affect their work, and, once in a while, fine-tune or even change their concepts altogether. Otherwise, they engage in the pathology of unconditionality Nietzsche (rightly so) detested." (p. 513).
-@bonilla2021 continues with the note that "...racism is material both in terms of practices (the mechanisms and behaviors enacted by actors that reproduce racial inequality) and in terms of actors' interests" (p. 516-517).
-One example of these interests that are clearly laid out in a historical view of sociology is Du Bois' intellectual inquiries [@Besek2021] focused on racism, where he examines the various complex dimensions of social conditions surrounding race and racism [@shuford2017four].
+@shiao2021 note that the "decision to connect concepts across the divide between comparative ethnicity and critical race theory may be controversial, but [they] find the general terminology of comparativists to be helpful for differentiating among uses of racism as structure and integrating the historical and group-specific analyses of U.S. critical race scholars" (p. 3). With these divides in mind, the two frameworks of racism presented by @bonilla1997rethinking and @shiao2021 were used to guide the conceptual replication for the study. @bonilla2021 notes that "Theorists must respond to critics, address new data, allow for new ideas, concepts, and orientations to affect their work, and, once in a while, fine-tune or even change their concepts altogether. Otherwise, they engage in the pathology of unconditionality Nietzsche (rightly so) detested." (p. 513). @bonilla2021 continues with the note that "...racism is material both in terms of practices (the mechanisms and behaviors enacted by actors that reproduce racial inequality) and in terms of actors' interests" (p. 516-517). One example of these interests that are clearly laid out in a historical view of sociology is Du Bois' intellectual inquiries [@Besek2021] focused on racism, where he examines the various complex dimensions of social conditions surrounding race and racism [@shuford2017four].
 
 The outlines provided by Bonilla-Silva (1997) and Shiao and Woody (2021) situate the lenses to examine research on racism in STEM.
 The emphasis on the multifaceted nature of racism, encompassing individual attitudes, cultural processes, and structural elements, highlights the importance of understanding racism as a social structure, while Shiao and Woody's framework further delineates this into pre-existing consequential inequalities and processes that create or maintain racial dominance.
@@ -197,8 +191,7 @@ These diverse perspectives underscore the need for a comprehensive methodologica
 
 # Methods and Data
 
-This section describes the procedures undertaken in the conceptual replication of @shiao2021's study which examines three broad constructs that frame sociologists' use of the term racism.
-Systematic review techniques offer a structured approach to synthesizing research literature [@diebolt2001bibliometric].
+Systematic review techniques offer a structured approach to synthesizing research literature [@diebolt2001cliometric].
 New computational methods have significantly advanced systematic reviews, helping with more pre-defined protocols outlining the methodologies that should be undertaken for reproducibility.
 These approaches employ a comprehensive, detailed search strategy across multiple databases and sources to find relevant studies.
 Systematic reviews also utilize specific, pre-defined inclusion and exclusion criteria for studies, whereas more critical reviews may rely on subjective or seemingly unclear selection criteria due to content- or disciplinary-specific knowledge.
@@ -217,7 +210,7 @@ Each of these studies contributes to our broader engagement with large-scale bib
 
 ## Method
 
-Our study used the bibliometrix package in R [@aria2017bibliometrix] as the primary analytical tool, combining traditional bibliometric analysis with quantitative historical methods.
+Our study used the bibliometrix package in R/Posit [@aria2017bibliometrix] as the primary analytical tool, combining traditional bibliometric analysis with quantitative historical methods.
 Traditional bibliometric analysis, as facilitated by bibliometrix, focuses on the quantitative assessment of scholarly publications, including citation patterns, authorship networks, and journal impact factors.
 It aims to evaluate research productivity, influence, and trends within specific disciplines or research communities.
 However, we extended this approach by incorporating quantitative historical methods, and specifically frameworks that consider the complexity, specificity, and variation of database content, to uncover and analyze patterns in the selected document matrices based on the study's conceptual framework.
@@ -518,7 +511,7 @@ This thematic distribution can be further distilled to provide additional insigh
 The analysis of research on racism in STEM reveals five distinct thematic clusters, each characterized by key concepts and focus areas.
 The first theme centers around "identity," "critical race theory," and "African-American," comprising 45 studies with a centrality score of 0.251.
 The second theme, focusing on "education," "students," and "experiences," is the largest cluster, containing 83 studies and a centrality score of 0.390.
-The third theme, which emphasizes "race," "students," and "gender," includes 74 studies and has the highest centrality score of 0.548, indicating its central position in the research network.
+The third theme, which emphasizes "race," "students," and "gender," includes 74 studies and has the highest centrality score of 0.548, indicating its central position in the network.
 The fourth theme, highlighting "science," "gender," and "color," consists of 38 studies with a centrality score of 0.367.
 Lastly, the fifth theme, which encompasses "racism," "psychology," and "age," is the smallest cluster, comprising only 10 studies and having the lowest centrality score of 0.187.
 
@@ -556,6 +549,10 @@ A higher centrality score indicates that the keyword plays a more central role i
 We chose to rank by Callon centrality to highlight the keywords that are most influential in bridging various topics in the research on racism in STEM, providing insight into the core concepts that link different aspects of this multifaceted field of study.
 
 ### Keywords-in-context
+
+In our analysis of the keywords, we examined both the conceptual and intellectual structure of the research literature found in the combined data set.
+To display the conditions of complexity, specificity, and variation previously discussed, we analyzed a host of combinations to target differences in the databases.
+In Table 6, we outline a sample analysis of keywords-in-context and the further refining process that would inform a qualitative metasynthesis [@berry2013promise; @thunder2016].
 
 ```{r, include=F, warning=F}
 # Install and load required packages
@@ -654,17 +651,15 @@ doc_counts_antiblackness_df %>%
 
 ```
 
-+-----------------------------------------------------------------+---------------+-----------+
-| Keyword-in-context                                              | Documents     | Frequency |
-+=================================================================+===============+===========+
-| c("structural", "sytemic", "antiblackness", "racist", "racial") | 9             | 384       |
-+-----------------------------------------------------------------+---------------+-----------+
-| c("structural")                                                 | 8             | 60        |
-+-----------------------------------------------------------------+---------------+-----------+
-| c("systemic")                                                   | 68            | 96        |
-+-----------------------------------------------------------------+---------------+-----------+
-| c("antiblackness", "anti-blackness")                            | 9             | 11        |
-+-----------------------------------------------------------------+---------------+-----------+
++--------------------------------------+---------------+-----------+
+| Keyword-in-context                   | Documents     | Frequency |
++======================================+===============+===========+
+| c("structural")                      | 8             | 60        |
++--------------------------------------+---------------+-----------+
+| c("systemic")                        | 68            | 96        |
++--------------------------------------+---------------+-----------+
+| c("antiblackness", "anti-blackness") | 9             | 11        |
++--------------------------------------+---------------+-----------+
 
 **Table 6**: Document count and frequency of sample keywords-in-context in M3 database.
 
@@ -696,7 +691,7 @@ These inequalities impact various aspects of Black people's lives, including hou
 As scholars better understand the meanings prescribed to racism and the presence of moving syntactical signifiers, there is also a need to understand the history and foundations of popular policies and the use of specific terms, like STEM [@gil2020stem].
 We examine notions of racism as framed in a body of research on 'STEM,' and in mathematics, science and technology studies to make sense of how racism is framed and contextualized.
 For instance, @benjamin2016catching uses the term 'STS' instead of STEM to refer to the specific area of science and technology studies [@york2018].
-However, despite focusing on two integral dimensions of STEM—science and technology—many traditional approaches in bibliometrics and citation analysis may overlook this contribution due to differences in terminology, a common challenge in cross-disciplinary research (CDR, @donovan2015your; 2015; @takeuchi2020transdisciplinarity; 2020).
+However, despite focusing on two integral dimensions of STEM—science and technology—many traditional approaches in bibliometrics and citation analysis may overlook this contribution due to differences in terminology, a common challenge in cross-disciplinary research (CDR; Donovan et al., -@donovan2015your; Takeuchi et al., -@takeuchi2020transdisciplinarity).
 
 ## Notions of Racism in STEM
 
@@ -708,7 +703,7 @@ Five distinct thematic clusters emerged from the analysis: identity and critical
 A dominant theme is the structural nature of racism in STEM higher education, which includes the exclusion of non-white individuals from positions of power, the development of a white frame that normalizes white racial superiority, and the historical construction of curricula based on white elite thinking.
 An emerging theme is the interaction of racism with other forms of oppression, such as sexism, ableism, and classism, particularly in STEM settings.
 
-Some examples and widely cited studies that focus on racism and STEM include research on the experiences and perceptions of groups racialized as non-white [@basile2019they] [@carlone2007understanding; @chen2018models] [@chavez2019healing; @gaston2013impact] [@harrell2011multiple; @gray2012intersecting] @mcgee2021black;@mcgee2017burden; studies on various cultural schemes, conceptions of race and racialization, and intersecting identities [@aldana2019youth; @dancy2020undergraduates; @Leyva2022; @Leyva2023; @mcgee2016devalued; @mcgee2017troubled; @nasir2017stem; @tate2020whiteliness; @wen2020effects]; and studies that analyze various structural dimensions, often examining interlocking systems and power relations [@bullock2017] [@mcgee2020interrogating] [@morton2022critical] [@vakil2019racial] [@vossoughi2018toward].
+Some examples and widely cited studies that focus on racism and STEM include research on the experiences and perceptions of groups racialized as non-white [@basile2019they; @carlone2007understanding; @chen2018models; @chavez2019healing; @gaston2013impact; @harrell2011multiple; @gray2012intersecting; @mcgee2021black; -@mcgee2017burden]; studies on various cultural schemes, conceptions of race and racialization, and intersecting identities [@aldana2019youth; @dancy2020undergraduates; @Leyva2022; @Leyva2023; @mcgee2016devalued; @mcgee2017troubled; @nasir2017stem; @tate2020whiteliness; @wen2020effects]; and studies that analyze various structural dimensions, often examining interlocking systems and power relations [@bullock2017; @mcgee2020interrogating; @morton2022critical; @vakil2019racial; @vossoughi2018toward].
 Importantly, the discussions across this extensive body of work often reside in multiple thematic areas; and many studies on racism and STEM provide insight into the ideologies, habits and traditions, social and cultural processes, and core structural components of racialization.
 These studies also highlight the dynamic and context-dependent nature of racism across social contexts, physical settings, and complex ecosystems [@Higgins2018].
 Yet, questions remain about how scholars situate \`\`racism" across different disciplines of study [@bonilla2021 @shiao2021].
