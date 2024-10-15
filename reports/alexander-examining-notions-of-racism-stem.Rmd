@@ -589,7 +589,7 @@ tokens <- tokens(corpus)
 keywords <- c("structural", "sytemic", "antiblackness", "racist", "racial")
 structure <- c("structural")
 system <- c("systemic")
-antiblackness <- c("antiblackness")
+antiblackness <- c("antiblackness", "anti-blackness")
 
 kwic_results <- kwic(tokens, pattern = phrase(keywords), window = 5)
 kwic_structure <- kwic(tokens, pattern = phrase(structure), window = 5) 
@@ -640,22 +640,33 @@ print(doc_counts_structure_df)
 print(doc_counts_system_df)
 print(doc_counts_antiblackness_df)
 
+doc_counts_results_df %>% 
+  count(Occurrences)
+
+doc_counts_structure_df %>% 
+  count(Occurrences)
+
+doc_counts_system_df %>% 
+  count(Occurrences)
+
+doc_counts_antiblackness_df %>% 
+  count(Occurrences)
+
 ```
 
-| Text ID | Frequency |
-|---------|-----------|
-| text130 | 9         |
-| text156 | 8         |
-| text278 | 7         |
-| text121 | 6         |
-| text122 | 6         |
-| text241 | 6         |
-| text102 | 5         |
-| text16  | 5         |
-| text265 | 5         |
-| text27  | 5         |
++-----------------------------------------------------------------+---------------+-----------+
+| Keyword-in-context                                              | Documents     | Frequency |
++=================================================================+===============+===========+
+| c("structural", "sytemic", "antiblackness", "racist", "racial") | 9             | 384       |
++-----------------------------------------------------------------+---------------+-----------+
+| c("structural")                                                 | 8             | 60        |
++-----------------------------------------------------------------+---------------+-----------+
+| c("systemic")                                                   | 68            | 96        |
++-----------------------------------------------------------------+---------------+-----------+
+| c("antiblackness", "anti-blackness")                            | 9             | 11        |
++-----------------------------------------------------------------+---------------+-----------+
 
-**Table 6**: Meanings are derived from the keywords-in-context.
+**Table 6**: Document count and frequency of sample keywords-in-context in M3 database.
 
 # Discussion
 
