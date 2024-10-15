@@ -145,7 +145,7 @@ These insights can be understood through an analysis of how scholars discuss the
 
 @shiao2021 note that the "decision to connect concepts across the divide between comparative ethnicity and critical race theory may be controversial, but [they] find the general terminology of comparativists to be helpful for differentiating among uses of racism as structure and integrating the historical and group-specific analyses of U.S. critical race scholars" (p. 3). With these divides in mind, the two frameworks of racism presented by @bonilla1997rethinking and @shiao2021 were used to guide the conceptual replication for the study. @bonilla2021 notes that "Theorists must respond to critics, address new data, allow for new ideas, concepts, and orientations to affect their work, and, once in a while, fine-tune or even change their concepts altogether. Otherwise, they engage in the pathology of unconditionality Nietzsche (rightly so) detested." (p. 513). @bonilla2021 continues with the note that "...racism is material both in terms of practices (the mechanisms and behaviors enacted by actors that reproduce racial inequality) and in terms of actors' interests" (p. 516-517). One example of these interests that are clearly laid out in a historical view of sociology is Du Bois' intellectual inquiries [@Besek2021] focused on racism, where he examines the various complex dimensions of social conditions surrounding race and racism [@shuford2017four].
 
-The outlines provided by Bonilla-Silva (1997) and Shiao and Woody (2021) situate the lenses to examine research on racism in STEM.
+The outlines provided by Bonilla-Silva (1997) and Shiao and Woody (2021) in table 1 situate the lenses to examine research on racism in STEM.
 The emphasis on the multifaceted nature of racism, encompassing individual attitudes, cultural processes, and structural elements, highlights the importance of understanding racism as a social structure, while Shiao and Woody's framework further delineates this into pre-existing consequential inequalities and processes that create or maintain racial dominance.
 In our study, we observed how these various components manifest in STEM research.
 Individual attitudes were evident in studies examining personal biases among STEM professionals and students.
@@ -222,7 +222,8 @@ This comprehensive method allowed us to capture the nuanced landscape of racism 
 
 ### Analytic Framework
 
-The analytic framework for the study was an iterative process that included insights from quantitative historical methods [@haskins2011], elements from bibliometric analytic methods [@aria2017bibliometrix], systematic reviews [@crisp2024systematic], and qualitative meta-synthesis methods in mathematics and education [@berry2013promise; @thomas2019qualitative; @thunder2016].
+The analytic process for the study is presented in figure 1.
+This framework for each step of data reduction was an iterative process that included insights from quantitative historical methods [@haskins2011], elements from bibliometric analytic methods [@aria2017bibliometrix], systematic reviews [@crisp2024systematic], and qualitative meta-synthesis methods in mathematics and education [@berry2013promise; @thomas2019qualitative; @thunder2016].
 Given that the research on racism in STEM draws from a more diverse set of intersecting disciplinary sources, our study departs from the methods outlined in @shiao2021 (2021) and adopts some of the methods engaged in the systematic processes in related studies in education on critical content.
 In our study, we focus on the distribution of research across domains and our process of extracting information from bibliographic entries and citations to examine the meaning of racism in STEM.
 
@@ -367,7 +368,7 @@ Additionally, there was a change in the variance of the network citation metrics
 
 ## Document Matrix Summaries
 
-Each document matrix, represented by \$M\$, included a different number of observations over a total of 61 variables.
+Each document matrix, represented by $M$, included a different number of observations over a total of 61 variables as presented in table 3.
 Each document matrix served as a fundamental structure for organizing and analyzing the bibliometric data across different journal sources.
 A matching method was used to identify and remove all duplicate records.
 In our coding schema for the reduction, when duplicate records were noted, a new data frame was generated and used as the main object.
@@ -453,7 +454,7 @@ The following sections provide a more detailed breakdown of this distribution an
 
 ### Global distribution
 
-Based on a total of 351 studies on racism in STEM, the global distribution of research reveals a significant concentration in a few countries, with only the top ten countries reported.
+The global distribution of the studies reveals a significant concentration in a few countries as presented in table 4, with only the top ten countries reported.
 The United States dominates the field, accounting for 76.4% of the studies (268 out of 351).
 The United Kingdom and Canada follow distantly, contributing 3.4% (12 studies) and 3.1% (11 studies) respectively.
 Brazil ranks fourth with 2.3% (8 studies), while Australia accounts for 1.4% (5 studies).
@@ -508,12 +509,12 @@ This thematic distribution can be further distilled to provide additional insigh
 
 ### Clusters
 
-The analysis of research on racism in STEM reveals five distinct thematic clusters, each characterized by key concepts and focus areas.
-The first theme centers around "identity," "critical race theory," and "African-American," comprising 45 studies with a centrality score of 0.251.
-The second theme, focusing on "education," "students," and "experiences," is the largest cluster, containing 83 studies and a centrality score of 0.390.
-The third theme, which emphasizes "race," "students," and "gender," includes 74 studies and has the highest centrality score of 0.548, indicating its central position in the network.
-The fourth theme, highlighting "science," "gender," and "color," consists of 38 studies with a centrality score of 0.367.
-Lastly, the fifth theme, which encompasses "racism," "psychology," and "age," is the smallest cluster, comprising only 10 studies and having the lowest centrality score of 0.187.
+Table 5 presents results on the database clusters.
+The table includes metrics such as callon centrality, callon density, rank centrality, rank density, and cluster frequency for the ten different clusters in M3.
+The "race" cluster appears to be the most prominent, with the highest callon centrality (15.421) and cluster frequency (798).
+Other notable clusters include "African American," "equity," and "risk," which have relatively high callon centrality and density values that informed our analysis of keywords-in-context.
+The table also shows those clusters with lower frequencies but varying levels of centrality and density, such as "responses," "politics," and "disparities," which speak to variation in the data.
+Overall, this table suggests varying degrees of interconnectedness and importance among the clusters.
 
 **[Insert table: thematic map-callon centrality]**
 
@@ -541,7 +542,7 @@ Lastly, the fifth theme, which encompasses "racism," "psychology," and "age," is
 | gay              | 0.917             | 36.111         | 19              | 5            | 13                |
 +------------------+-------------------+----------------+-----------------+--------------+-------------------+
 
-: **Table 5**: Cluster anlaysis
+: **Table 5**: Cluster analysis
 
 The specific keywords in the table have been ranked according to their Callon centrality, a measure used in co-word analysis to assess the importance of a term within a research field.
 Callon centrality quantifies the strength of a keyword's connections to other keywords in the network.
@@ -651,15 +652,15 @@ doc_counts_antiblackness_df %>%
 
 ```
 
-+--------------------------------------+---------------+-----------+
-| Keyword-in-context                   | Documents     | Frequency |
-+======================================+===============+===========+
-| c("structural")                      | 8             | 60        |
-+--------------------------------------+---------------+-----------+
-| c("systemic")                        | 68            | 96        |
-+--------------------------------------+---------------+-----------+
-| c("antiblackness", "anti-blackness") | 9             | 11        |
-+--------------------------------------+---------------+-----------+
++--------------------------------------+--------------+--------------+
+| Keyword-in-context                   | Documents    | Frequency    |
++======================================+==============+==============+
+| c("structural")                      | 8            | 60           |
++--------------------------------------+--------------+--------------+
+| c("systemic")                        | 68           | 96           |
++--------------------------------------+--------------+--------------+
+| c("antiblackness", "anti-blackness") | 9            | 11           |
++--------------------------------------+--------------+--------------+
 
 **Table 6**: Document count and frequency of sample keywords-in-context in M3 database.
 
@@ -710,21 +711,21 @@ Yet, questions remain about how scholars situate \`\`racism" across different di
 
 ## **Historical Context of Anti-Discrimination Laws**
 
-Our analysis of the establishment of federal anti-discrimination laws in four major English-speaking countries reveals a pattern of progressive policy implementation spanning from the mid-1960s to the mid-1980s.
-This distribution of legislative actions reflects a global shift towards addressing racial discrimination and promoting civil rights during this period.
-Applying a quantitative historical framework to our study, we examined the frequency and timing of these legislative actions as quantifiable evidence gathered from primary sources.
+Our analysis of the establishment of federal anti-discrimination laws in four major English-speaking countries (see table 7) reveals a pattern of progressive policy implementation spanning from the mid-1960s to the mid-1980s that follows the publication ranks from the global distribution of the data.
+This distribution of legislative actions potentially reflects a global shift towards addressing racial discrimination and promoting civil rights during this period; however, there are a dynamic set of indicators that inform these relations.
+By applying a quantitative historical framework to our study, we are able to examine the frequency and timing of these legislative actions as quantifiable evidence gathered from primary sources.
 
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+------------------+
-| Country        | Federal law                                                                                                                           | Year         | Publication rank |
-+================+=======================================================================================================================================+==============+==================+
-| United States  | **Civil Rights Act of 1964** prohibits discrimination in employment, public accommodations, and education.                            | 1964         | 1                |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+------------------+
-| United Kingdom | **Race Relations Act of 1965** address racial discrimination and was the first piece of legislation to do so in the U.K.              | 1965         | 2                |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+------------------+
-| Australia      | **Racial Discrimination Act (RDA)** prohibits discrimination on the basis of color, descent, ethnic origin, national origin, or race. | 1975         | 5                |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+------------------+
-| Canada         | **Canadian Human Rights Act (CHRA)** prohibits discrimination based on eleven grounds, including race.                                | 1977         | 3                |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------------+------------------+
++----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------+------------------+
+| Country        | Federal law                                                                                                                           | Year   | Publication rank |
++================+=======================================================================================================================================+========+==================+
+| United States  | **Civil Rights Act of 1964** prohibits discrimination in employment, public accommodations, and education.                            | 1964   | 1                |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------+------------------+
+| United Kingdom | **Race Relations Act of 1965** address racial discrimination and was the first piece of legislation to do so in the U.K.              | 1965   | 2                |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------+------------------+
+| Australia      | **Racial Discrimination Act (RDA)** prohibits discrimination on the basis of color, descent, ethnic origin, national origin, or race. | 1975   | 5                |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------+------------------+
+| Canada         | **Canadian Human Rights Act (CHRA)** prohibits discrimination based on eleven grounds, including race.                                | 1977   | 3                |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------+--------+------------------+
 
 : **Table 7**: Federal anti-discrimination laws in four English-speaking countries
 
