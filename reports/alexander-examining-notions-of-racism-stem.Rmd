@@ -202,11 +202,10 @@ We map the intellectual structure of racism-focused research in STEM and STEM ed
 Despite the increasing value of systematic analysis, there are fewer replication studies conducted in certain scientific disciplines, one being research in education [@perry2022decade].
 In studies on replication methods, the focus on the value of certain methodological insights is presented and challenged.
 For example, @bonett2021design focus on the various criteria needed in replication studies, confirming the research conducted by @anderson2016there and @perry2022decade that direct replications are rare.
-While focusing on the various quantitative and computational facets of replication studies, @bonett2021design's analysis provides insights into the dynamic nature of replication studies and the increasing requirements of computational methods for replication.
-@perry2022decade review replication studies in education between 2011 and 2020.
-In their analysis, they examine the number of replications and types of replication studies conducted.
+While focusing on the various quantitative and computational facets of replication studies, @bonett2021design's analysis presents insights into replication studies and the systematic requirements of computational methods for replication.
+@perry2022decade review replication studies in education between 2011 and 2020; in their analysis, they examine the number of replications and types of replication studies conducted.
 @perry2022decade note that many studies in education research are conceptual in nature, and that direct replication studies are rare in the discipline of education.
-Each of these studies contributes to our broader engagement with large-scale bibliometric content in education and the development of a more diverse approach to examining the evolution and development of ideas in a field.
+Each of these studies contributes to our broader engagement with large-scale bibliometric content in education and the development of a more diverse approach to examining the evolution and development of ideas in
 
 ## Method
 
@@ -224,7 +223,7 @@ This comprehensive method allowed us to capture the nuanced landscape of racism 
 
 The analytic process for the study is presented in figure 1.
 This framework for each step of data reduction was an iterative process that included insights from quantitative historical methods [@haskins2011], elements from bibliometric analytic methods [@aria2017bibliometrix], systematic reviews [@crisp2024systematic], and qualitative meta-synthesis methods in mathematics and education [@berry2013promise; @thomas2019qualitative; @thunder2016].
-Given that the research on racism in STEM draws from a more diverse set of intersecting disciplinary sources, our study departs from the methods outlined in @shiao2021 (2021) and adopts some of the methods engaged in the systematic processes in related studies in education on critical content.
+Given that the research on racism in STEM draws from a more diverse set of intersecting disciplinary sources, our study departs from the methods outlined in @shiao2021 and adopts some of the methods engaged in the systematic processes in related studies in education on critical content.
 In our study, we focus on the distribution of research across domains and our process of extracting information from bibliographic entries and citations to examine the meaning of racism in STEM.
 
 **[Insert figure: analytic-framework]**
@@ -685,7 +684,7 @@ Others focus on the various components of cultural and social schema, see e.g., 
 As studies of racism expand in a field, these scholars have emphasized the need to examine the diverse interpretations and meanings of racism in a body of research literature [@bonilla2021; @shiao2021].
 Our study examines notions of racism in STEM using a context-based bibliometric approach.
 
-The focus on CRT in STEM [@morton2022critical] is a salient feature of the primarily U.S. based set fo studies, which provide some of the broader discourses developing across nations, contributing to parallel evolutions noted by Turchin (2017).
+The focus on CRT in STEM [@davis2019critical; @morton2022critical] is a salient feature of the primarily U.S. based set of studies, which provide some of the broader discourses developing across nations, contributing to parallel evolutions noted by Turchin (2017).
 Lloyd et al. (2021) argue that inequality is built into the country's infrastructure, forming the foundation for structural racism—a system that privileges White people and results in intentional disadvantage for Black Americans.
 These inequalities impact various aspects of Black people's lives, including housing, education, employment, economic opportunities, access to child care, health outcomes, political power, and treatment in legal and justice systems.
 
