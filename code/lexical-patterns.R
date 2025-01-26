@@ -1,4 +1,3 @@
-
 ## RQ3 - lexical patterns
 
 
